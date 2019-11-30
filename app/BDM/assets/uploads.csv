@@ -1,0 +1,552 @@
+Nome,Descricao,Categoria,Link,Composer,Git
+Embalagens Produto,"O módulo tem como objetivo permitir ao lojista cadastrar embalagens diferentes para seus produtos, que devem ser selecionadas pelo cliente ao adicionar o produto ao carrinho. Obviamente essa possibilidade só existe se no produto o lojista tiver cadastrado mais de 1 opção de embalagem. A embalagem selecionada pelo cliente será exibidas no carrinho e também no order.",Catálogo,https://gitlab.com/bis2bis-modules/modulo-embalagens-produto,No,Gitlab
+Engine,"Módulo que cria a capacidade de agrupar todos os arquivos dos outros módulos em uma só pasta.
+Isso cria a capacidade de instalação de módulos via Composer.",Desenvolvimento,https://gitlab.com/bis2bis-modules/engine,No,Gitlab
+Smart Hint,,Integração,https://gitlab.com/bis2bis-modules/-smart-hint,No,Gitlab
+Checkout Grid ,"O módulo tem como objetivo exibir os produtos divididos por grid no minicart, cart e osc.",Catálogo,https://gitlab.com/bis2bis-modules/-checkout-grid,No,Gitlab
+Envio da loja,,Frete,https://gitlab.com/bis2bis-modules/shipping-from-store,No,Gitlab
+RD Station,Módulo de integração entre o magento e a plataforma RD Station da Resultados Digitais para criação e qualificação de leads,Integração,https://gitlab.com/bis2bis-modules/-rd-station,No,Gitlab
+Detalhes Desconto ,"Este módulo vai detalhar todos os descontos aplicados à um novo pedido e adicionar em um comentário do pedido. O módulo é compatível com o Módulo Brinde, Segundo Cupom e Frete Grátis.",Pedido,https://gitlab.com/bis2bis-modules/-detalhes-desconto,No,Gitlab
+Mascara Cliente ,"Este módulo adiciona observers no salvamento de clientes e endereços (dos clientes) para que se adicionem filtros baseados em Expressão Regular para editar os campos.
+A funcionalidade do filtro se ativa toda vez que um cliente é salvo, independente se ele acabou de se cadastrar, se ele está editando seus dados ou se está sendo editado pelo painel de administrador.",Customer,https://gitlab.com/bis2bis-modules/-mascara-cliente,No,Gitlab
+Uploader ,"Este módulo reescreve a classe ""media_uploader"" padrão do magento para remover o FLASH e subir arquivos utilizando o HTML e JavaScript.",Admin,https://gitlab.com/bis2bis-modules/-uploader/tree/composer,No,Gitlab
+Multi Store Fake ,"O módulo tem como objetivo simular a venda de produtos por mais de uma loja. Sendo possível setar no cadastro do produto, qual a loja está vendendo o mesmo.",Product,https://gitlab.com/bis2bis-modules/-multi-store-fake,No,Gitlab
+Script Module List ,Script para adicionar uma listagem de s instalados na loja ao repositorio,Desenvolvimento,https://gitlab.com/bis2bis-modules/script-module-list/tree/master/,No,Gitlab
+Cancel Order Edrone ,,Pedido,https://gitlab.com/bis2bis-modules/-cancel-order-edrone,No,Gitlab
+ Cores Ajax ,O módulo tem como objetivo exibir opções de atributos em forma de filtros em produtos configuravéis possibilitando o clinte de comprar o produto mesmo sem estoque porém com uma quantidade de dias configuravéis para fabricação do produto.,Product,https://gitlab.com/bis2bis-modules/-cores-ajax,No,Gitlab
+ Block Edit ,O módulo permite ao lojista bloquear a edição e exclusão de clientes por outros usuários,Customer,https://gitlab.com/bis2bis-modules/-block-edit,No,Gitlab
+ Acrescimo Order ,"O módulo permite ao lojista adicionar uma quantidade de acréscimo no valor após o pedido finalizado, diretamente na página do pedido no admin",Pedido,https://gitlab.com/bis2bis-modules/-acrescimo-order,No,Gitlab
+ Datalayer ,"O módulo adiciona informações ao datalayer da loja, seguindo os padrões do google",Catálogo,https://gitlab.com/bis2bis-modules/-datalayer,No,Gitlab
+ Gollog ,Módulo para realizar cotações de frete com a gollog,Frete,https://gitlab.com/bis2bis-modules/-gollog,No,Gitlab
+ Custom Options Description ,"Adiciona as opções personalizadas do produto o campo ""descrição"", este campo será utilizado na págia do produto para exibir um texto mais completo para o cliente.
+Permite ao lojista colocar uma informação maior para o cliente e quando o produto for adicionado ao carinho não será exibido todo o texto",Product,https://gitlab.com/bis2bis-modules/-custom-options-description,No,Gitlab
+ User Address ,Filtra o endereço do cliente para remover informações adicionais da rua,Frete,https://gitlab.com/bis2bis-modules/-user-address,No,Gitlab
+ Esitef,Disponibiliza o Método de Pagamento E-Sitef,Pagamento,https://gitlab.com/bis2bis-modules/-esitef,No,Gitlab
+ RKFBot ,"Extensão para o Chrome que auxilia no preenchimento de fomulários, geração de CPF, catão de crédito",Desenvolvimento,https://gitlab.com/bis2bis-modules/-rkfbot,-,Gitlab
+ Quick Prime ,"O módulo adiciona funcionalidades ao ""Quick Create"" de produtos simples no atrelamento do configurável",Product,https://gitlab.com/bis2bis-modules/-quick-prime,No,Gitlab
+Módulo Estoque por Peso Kg ,,,https://gitlab.com/bis2bis-modules/-estoque-por-peso,-,Gitlab
+ Retirar na Loja ,"Método de entrega que permite a compra com o método ""Retirada em loja""",Frete,https://gitlab.com/bis2bis-modules/-retirar-na-loja,No,Gitlab
+Sublime Complete ,,,https://gitlab.com/bis2bis-modules/sublime-complete,-,Gitlab
+ Entrega Express ,"Módulo de entrega baseado em cm³, permite limitar a entrega de acordo com o tamanho do pedido",Frete,https://gitlab.com/bis2bis-modules/-entrega-express,No,Gitlab
+ Offline Payment ,"O módulo permite ao lojista cadastrar métodos de pagamento para cobraça offline.
+O cliente escolhe dentre as listas de métodos cadastrado pelo lojsita e registra a informação no pedido.
+Obs: O módulo não realiza a cobraça, apenas registra no pedido a escolha do cliente",Pagamento,https://gitlab.com/bis2bis-modules/-offline-payment,No,Gitlab
+Módulo Filtro Estoque ,"Este módulo serve para filtrar produtos Disponíveis e Fora de estoque entre os filtros de busca de produtos no front da loja.
+Este módulo só faz sentido se o lojista ativar a opção de mostrar produtos sem estoque no front da loja, dando assim a opção ao cliente da loja de filtrar ou não estes produtos",Product,https://gitlab.com/bis2bis-modules/-filtro-estoque,No,Gitlab
+Módulo Alerta de Promoção ,O módulo adiciona a funcionalidade de adicionar alerta de preço para produtos,Product,https://gitlab.com/bis2bis-modules/-alerta-de-promocao,No,Gitlab
+ Boleto Avulso ,O módulo possibilita que o cliente gere um boleto de qualquer valor pelo Pagar.me,Pagamento,https://gitlab.com/bis2bis-modules/-boleto-avulso,No,Gitlab
+ Entrega Agendada Maps ,O módulo permite o cliente selecionar no OSC o dia e data que o pedido será entregue,Pedido,https://gitlab.com/bis2bis-modules/-entrega-agendada-maps,No,Gitlab
+ API Bis2bis ,Adiciona à api do magento melhorias e implementações para ERPS que desejem usá-lo,,https://gitlab.com/bis2bis-modules/-api-bis2bis,No,Gitlab
+ Gubee ,Módulo centralizador para funcionar a Gubee Marketplace,,https://gitlab.com/bis2bis-modules/-gubee,No,Gitlab
+ GTD ,,,https://gitlab.com/bis2bis-modules/-gtd,No,Gitlab
+ Desconto Pedido ,"O módulo permite ao lojista adicionar uma quantidade de desconto após o pedido finalizado, diretamente na página do pedido no admin",Pedido,https://gitlab.com/bis2bis-modules/-desconto-pedido,No,Gitlab
+ Lista Compra Decimal ,"O módulo adiciona a funcionalidade de decimal para o módulo lista de compra.
+Permite a adição e compra de produtos decimais (peso/unidade) a lista de compra",Product,https://gitlab.com/bis2bis-modules/-lista-compra-decimal,No,Gitlab
+ CustomTracking ,"O que o módulo foi desenvolvido para ibyte e ione com intuito de adicionar um tracking default ao gerar uma entrega, porém é um estrutura bem básica possibilitando de melhorias para deixa-lo mais generico",Frete,https://gitlab.com/bis2bis-modules/-customtracking,No,Gitlab
+ Lista Compra Banner ,"O módulo adiciona a funcionalidade de banner para as listas de compra, com ele é possível cadastrar na lista um banner que será exibido no topo da página de visualização da lista",,https://gitlab.com/bis2bis-modules/-lista-compra-banner,No,Gitlab
+ Random Product Order ,Esse  ira randomizar a ordem dos produtos de tempos em tempos (por padrão todo sábado as 2am),Product,https://gitlab.com/bis2bis-modules/-random-product-order,No,Gitlab
+ Mercado Pago Transparente ,,Pagamento,https://gitlab.com/bis2bis-modules/-mercado-pago-transparente,No,Gitlab
+Sliderfilter,"O módulo tem o objetivo de transformar filtros de atributo do magento em slider filters pegando 3 valores ao invés  de apenas um, ou seja, o módulo busca o valor seleciona e também um valor acima e um valor abaixo",,https://gitlab.com/bis2bis-modules/-sliderfilter,No,Gitlab
+ Prancha ,O módulo tem como objetivo exibir opções de atributos em forma de filtros em produtos configuravéis possibilitando o clinte de comprar o produto mesmo sem estoque porém com uma quantidade de dias configuravéis para fabricação do produto,Product,https://gitlab.com/bis2bis-modules/-prancha,No,Gitlab
+ Formulario Customizavel ,O módulo permite a criação de formulários através do admin da loja,Admin,https://gitlab.com/bis2bis-modules/-formulario-customizavel,No,Gitlab
+ Encarte ,,,https://gitlab.com/bis2bis-modules/-encarte,-,Gitlab
+ Promotion And News ,O módulo foi desenvolvido com a finalidade de enviar o produto diretamente para a categoria novidades e/ou promoções,Product,https://gitlab.com/bis2bis-modules/-promotion-and-news,No,Gitlab
+ Facebook Ads ,,,https://gitlab.com/bis2bis-modules/-facebook-ads,No,Gitlab
+ Correcao De Endereco ,Corrige problemas com endereços,Endereço,https://gitlab.com/bis2bis-modules/-correcao-de-endereco,No,Gitlab
+ Recompra ,"O módulo cria uma página intermediária ao processo de recompra, permitindo ao cliente selecionar quais itens e quantidades deseja adicionar no carrinho",,https://gitlab.com/bis2bis-modules/-recompra,No,Gitlab
+ Edicao Pedido ,"Este módulo foi desenvolvido para a cidade canção e permite entre outras funcionalidades, editar os itens do pedido",Pedido,https://gitlab.com/bis2bis-modules/-edicao-pedido,No,Gitlab
+ Otimizador Imagem ,Deixa as imagens mais leves para melhorar o desempenho do site,,https://gitlab.com/bis2bis-modules/-otimizador-imagem,No,Gitlab
+ BundlePlus ,"Módulo que disponibiliza uma modificacao para que possa criar nas opcoes personalizadas do bundle, a opcao checkbox com quantidade",,https://gitlab.com/bis2bis-modules/-bundleplus,No,Gitlab
+ Upload de Imagens html5 ,Atualiza o upload de imagens do magento 1.x para a utilização do HTML5 abandonando o uso do flash para tal,,https://gitlab.com/bis2bis-modules/-upload-de-imagens-html5,No,Gitlab
+ Exchange Rates ,O módulo permite ao lojista cadastrar as taxas do ouro e aplicar em cada produto,,https://gitlab.com/bis2bis-modules/-exchange-rates,No,Gitlab
+ Braspress ,Módulo para simular cotações de frete para a Braspress,Frete,https://gitlab.com/bis2bis-modules/-braspress,No,Gitlab
+ Jadlog V2 ,Módulo para simular cotações de frete para a Jadlog,Frete,https://gitlab.com/bis2bis-modules/-jadlog-v2,No,Gitlab
+ Lista Compra Grupos ,"O módulo adiciona a funcionalidade de grupos para o módulo lista de compra.
+Permite que as listas sejam classificadas em grupos, facilitando ao cliente encontrar uma lista de sua preferência",Catálogo,https://gitlab.com/bis2bis-modules/-lista-compra-grupos,No,Gitlab
+ Lista Compra Visibilidade ,"O módulo adiciona a funcionalidade de visibilidade para o módulo lista de compra.
+Permite visualizar a lista em formato de listagem, ou categoria.
+(Obs: a visibilidade de categoria apenas abre uma categoria escolhida pelo lojista)",,https://gitlab.com/bis2bis-modules/-lista-compra-visibilidade,No,Gitlab
+ Bloqueio por CEP ,Remover métodos de entrega baseado nas faixas de CEP cadastradas,Frete,https://gitlab.com/bis2bis-modules/-bloqueio-por-cep,No,Gitlab
+ Imposto Bis2Bis ,Módulo que incrementa a parte de impostos original do Magento,,https://gitlab.com/bis2bis-modules/-imposto-bis2bis,No,Gitlab
+ Marketplace Shipping ,,,https://gitlab.com/bis2bis-modules/-marketplace-shipping,No,Gitlab
+ Marketplace Payment ,,,https://gitlab.com/bis2bis-modules/-marketplace-payment,No,Gitlab
+ Lista Compra Instituto ,O módulo adiciona a funcionalidade de institutos para o módulo lista de compra,,https://gitlab.com/bis2bis-modules/-lista-compra-instituto,No,Gitlab
+ Lista Compra Social ,O módulo adiciona a funcionalidade de publicação de listas ao módulo lista de compra,,https://gitlab.com/bis2bis-modules/-lista-compra-social,No,Gitlab
+ Lista Compra ,O módulo permite aos clientes/lojista cadastrar/comprar listas de produtos,Catálogo,https://gitlab.com/bis2bis-modules/-lista-compra,No,Gitlab
+ Buscape Fcontrol ,,,https://gitlab.com/bis2bis-modules/-buscape-fcontrol,-,Gitlab
+ Formulario Customizavel Deprecated ,"Módulo criado para tornar mais prática a criação de formularios em geral, possibilitando ao lojista total liberdade para personalizar todos os campos do formulário",,https://gitlab.com/bis2bis-modules/-formulario-customizavel-deprecated,No,Gitlab
+ Notify Me When Arrive ,"Módulo desenvolvido para notificar cliente por e-mail quando produto que estava fora de estoque, tiver estoque.",Customer,https://gitlab.com/bis2bis-modules/-notify-me-when-arrive,No,Gitlab
+ Cart Ajax ,Modifica o funcionamento padrão do cart para remover por ajax,,https://gitlab.com/bis2bis-modules/-cart-ajax,No,Gitlab
+ Retencao Cancelamento ,Módulo desenvolvido para permitir que o cliente possa solicitar o cancelamento de seus pedidos,Pedido,https://gitlab.com/bis2bis-modules/-retencao-cancelamento,No,Gitlab
+ Compre X Ganhe Y ,"O módulo aplica a funcionalidade de ""Compre X Ganhe Y"", na compra de x produtos é aplicado um desconto no produto x+1",Product,https://gitlab.com/bis2bis-modules/-compre-x-ganhe-y,No,Gitlab
+ Compre Junto ,"O módulo permite ao lojista cadastrar uma regra para que o cliente consiga realizar a compra conjuta de produtos, aplicando uma quantidade de desconto",Product,https://gitlab.com/bis2bis-modules/-compre-junto,No,Gitlab
+ Admin Payment ,Método de pagamento que fica disponível somente para compras feitas pelo admin,Pagamento,https://gitlab.com/bis2bis-modules/-admin-payment,No,Gitlab
+ Limite Compra ,O módulo permite que seja cadastrado um limite de compras do produto por pedido,Product,https://gitlab.com/bis2bis-modules/-limite-compra,No,Gitlab
+ Regra Entrega ,"Módulo desenvolvido para a loja cidade canção, o módulo adiciona um atributo na categoria e no produto que informa se a categoria ou produto são apenas para retirada em loja, entrega ou ambos",Frete,https://gitlab.com/bis2bis-modules/-regra-entrega,No,Gitlab
+ Rule Prize ,"O módulo permite a adição de produtos em regras de promoção do mangeto, permitindo ao lojista adicionar brindes ao carrinho utilizando regras de promoção do magento",,https://gitlab.com/bis2bis-modules/-rule-prize,No,Gitlab
+ Vendedor ,"Módulo que permite o cadastro de vendedores, permitindo a vendedores realizar compra para usuários do site.
+Módulo desenvolvido para a coletek",,https://gitlab.com/bis2bis-modules/-vendedor,No,Gitlab
+ Entrega Coletek ,"Módulo de entrega desenvolvido para a coletek para possibilitar o envio seguindo regras de frete grátis. Caso carrinho possua frete grátis é exibida uma mensagem, caso não seja é exibida outra mensagem",Frete,https://gitlab.com/bis2bis-modules/-entrega-coletek,No,Gitlab
+ Pagamento Vale ,"O módulo Pagamento Vale é metodo de pagamento que é apenas representativo, pois não integra com nenhuma ferramenta, semelhante ao Dinheiro/Cheque",Pagamento,https://gitlab.com/bis2bis-modules/-pagamento-vale,No,Gitlab
+ Nota Fiscal ,"Esse módulo foi desenvolvido com a finalidade de possibilitar o envio de nota fiscal através da API.
+O módulo adiciona uma nova aba no pedido (admin e front) para a visualização de notafiscal.",Integração,https://gitlab.com/bis2bis-modules/-nota-fiscal,No,Gitlab
+ Order Massaction ,"Esse módulo foi desenvolvido com a finalidade de adicionar mass actions a grid de pedidos.
+Funcionalidade de criação de entregas em massa.",Frete,https://gitlab.com/bis2bis-modules/-order-massaction,No,Gitlab
+ Comprador DDF ,Esse módulo foi desenvolvido com a finalidade de registrar o cadastro de pessoas jurídicas da loja DDF,Customer,https://gitlab.com/bis2bis-modules/-comprador-ddf,No,Gitlab
+ Relatorio DDF ,"O módulo permite a geração de relátorios com os pedidos com o método de envio ""coleta ddf"" gerada pelo módulo envio produto",,https://gitlab.com/bis2bis-modules/-relatorio-ddf,No,Gitlab
+ Envio Produto ,,,https://gitlab.com/bis2bis-modules/-envio-produto,-,Gitlab
+ Timeline Meus Pedidos ,"Cria uma timeline (igual da lojas Veneza) no Painel do Cliente em Meus Pedidos com os status:
+1.Pagamento - 2.Processando o Pedido - 3.Emissão de Nota Fiscal - 4.Transporte - 5.Entrega",Pedido,https://gitlab.com/bis2bis-modules/-timeline-meus-pedidos,No,Gitlab
+ Etiquetas Correios ,Este módulo permite gerenciar as etiquetas de rastreio geradas pelos correios,Frete,https://gitlab.com/bis2bis-modules/-etiquetas-correios,No,Gitlab
+ Entrega Preferencia ,Esse módulo foi desenvolvido com a finalidade de permitir ao cliente digitar uma transportador de sua preferência ao cotar o frete no cart,Frete,https://gitlab.com/bis2bis-modules/-entrega-preferencia,No,Gitlab
+ Retorno Mercadoria ,O módulo implementa a funcionalidade solicitada pela Coletek de retorno de mercadoria (RMA). Permitindo ao cliente retornar mercadorias e receber crédito para utilizar na plataforma,,https://gitlab.com/bis2bis-modules/-retorno-mercadoria,No,Gitlab
+ Planilha Preco ,Este módulo permite que através de um CSV seja possível atualizar as faixas de preço dos produtos,Product,https://gitlab.com/bis2bis-modules/-planilha-preco,No,Gitlab
+ Cartao Balcao ,,,https://gitlab.com/bis2bis-modules/-cartao-balcao,No,Gitlab
+ Search Restrictions ,Esse módulo foi desenvolvido com a finalidade de centralizar e permitir que sejam realizadas alterações na busca,,https://gitlab.com/bis2bis-modules/-search-restrictions,No,Gitlab
+ Faltante Frete ,Esse módulo foi desenvolvido com a finalidade de exibir a quantidade que falta para atigir a regra de frete grátis,Frete,https://gitlab.com/bis2bis-modules/-faltante-frete,No,Gitlab
+ Promotion Rules ,"Esse módulo foi desenvolvido com a finalidade de permitir a criação de novas condições para as regras de promoção
+O módulo implementa funções de API para permitir a utilização de regras de carrinho pela API",,https://gitlab.com/bis2bis-modules/-promotion-rules,No,Gitlab
+ Rates Controller ,"Esse módulo foi desenvolvido com a finalidade de realizar um controlle adicional das formas de entrega de um modo genérico como:
+É possivel realizar a configuração de prazo adicional para várias transportadoras através deste módulo.",,https://gitlab.com/bis2bis-modules/-rates-controller,No,Gitlab
+ Order Validation ,"Esse módulo foi desenvolvido com a finalidade de validar a criação de pedidos via admin.
+O módulo verifica se os produtos dentro do pedido possuem estoque e caso não tenham exibe uma mensagem de erro informando o lojista, porém não impede a criação do pedido.",Pedido,https://gitlab.com/bis2bis-modules/-order-validation,No,Gitlab
+ Form Search ,"Esse módulo adiciona uma barra de busca na lateral esqueda, das categorias e da própria página de busca",Catálogo,https://gitlab.com/bis2bis-modules/-form-search,No,Gitlab
+ Limite de Credito ,"O módulo permite ao lojista cadastrar limites de crédito aos seus clientes e impedir vendas utilizando métodos de pagamentos cadastrados na configuração do módulo para o cliente caso o valor ultrapasse o limite de crédito.
+O módulo funciona apenas com CNPJ, então caso o lojista possua cliente com CPF não é possível a utilização deste módulo.
+O módulo possui 3 funçõe na API, para cadastrar o limite de crédito do cliente, consultar os dados de crédito do cliente e informar pagamentos realizados pelo cliente para liberar o limite de crédito que foi utilizado.",Pagamento,https://gitlab.com/bis2bis-modules/-limite-de-credito,No,Gitlab
+ Retire em Loja Ibyte ,"O módulo Retire na Loja foi adaptado para buscar as lojas com retirada imediata na API da Ibyte.
+",,https://gitlab.com/bis2bis-modules/-retire-em-loja-ibyte,No,Gitlab
+Restricao de Vendas Por CEP ,"O módulo possui uma grid para cadastrar as faixas que não poderão finalizar pedidos na loja (Clientes > Restringir Vendas Por CEP).
+As faixas precisam ser cadastradas com cep. Por exemplo, se quisermos bloquear a cidade do Rio de Janeiro, 20000-000 até 26600-999 é a faixa de CEP. O lojista pode inserir e alterar as faixas como desejar.
+Existe uma configuração no admin para alterar a mensagem a ser exibida par ao cliente bloqueado (Sistema > Configuração > Clientes > Configurações > Restringir Vendas Por CEP).",,https://gitlab.com/bis2bis-modules/restricao-de-vendas-por-cep,No,Gitlab
+ Pagar Me,Adiciona o método de pagamento do Pagar Me.,Pagamento,https://bitbucket.org/bis2bis/-pagar-me/src/master/,No,BitBucket
+ Marcas Categoria,"O módulo tem o objetivo de organizar as marcas em ordem alfabética em uma página, onde o cliente pode rapidamente acessar um conjunto de produtos, pela marca associada à ele. Ele possibilita que o lojista gerencie suas marcas e listas de marcas para melhor organização do conteúdo.",,https://bitbucket.org/bis2bis/-marcas-categoria/src/master/,No,BitBucket
+ Skyhub Bis2Bis,,,https://bitbucket.org/bis2bis/-skyhub-bis2bis/src/master/,No,BitBucket
+ Anymarket,Módulo para integrar o gerenciador de marketplaces ANYMARKET.,,https://bitbucket.org/bis2bis/-anymarket/src/master/,No,BitBucket
+ Mercado Livre,,,https://bitbucket.org/bis2bis/-mercado-livre/src/master/,No,BitBucket
+ Clearsale Total Garantido,,,https://bitbucket.org/bis2bis/-clearsale-total-garantido/src/master/,No,BitBucket
+ Newsletter Prime,O módulo adiciona campos para a newsletter do magento. Campos Atuais: 1. Nome. 2. Gênero. 3. Celular.,,https://bitbucket.org/bis2bis/-newsletter-prime/src/master/,No,BitBucket
+ Nota Personalizada,"Este módulo foi desenvolvido à pedido da loja World Importados e permite gerar uma espécie de nota personalizada para os pedidos da loja. Esta nota exibe informações do pedido, cliente, endereço e produtos visando facilitar o trabalho do pessoal responsável pela embalagem e logística.",,https://bitbucket.org/bis2bis/-nota-personalizada/src/master/,No,BitBucket
+ Cielo v3,,Pagamento,https://bitbucket.org/bis2bis/-cielo-v3/src/master/,No,BitBucket
+ XML Facebook,Módulo responsável por gerar o XML para o Feed de Produtos do Facebook.,,https://bitbucket.org/bis2bis/-xml-facebook/src/master/,No,BitBucket
+ Paypal Express Checkout,Disponibiliza o Método de Pagamento Paypal Express Checkout (PaypalExpress).,Pagamento,https://bitbucket.org/bis2bis/-paypal-express-checkout/src/master/,No,BitBucket
+ Sigep,Realiza o gerenciamento das postagens dos lojistas no Correios,Frete,https://bitbucket.org/bis2bis/-sigep/src/master/,No,BitBucket
+ Grids Customizaveis,Esse módulo foi desenvolvido com a finalidade de gerenciar e adicionar novas colunas as grids do magento.,Catálogo,https://bitbucket.org/bis2bis/-grids-customizaveis/src/master/,No,BitBucket
+ Transportadora Tnt,,Frete,https://bitbucket.org/bis2bis/-transportadora-tnt/src/master/,No,BitBucket
+ Retire na Loja,"Este módulo cria um novo método de entrega na página do checkout, onde o cliente pode escolher em qual loja deseja retirar suas compras. As lojas devem ser cadastradas em menu específico no admin. (Lojas -> Cadastro de Lojas)",,https://bitbucket.org/bis2bis/-retire-na-loja/src/master/,No,BitBucket
+ Cnova Marketplace,A Cnova é o grupo que controla alguns marketplaces do Brasil.,,https://bitbucket.org/bis2bis/-cnova-marketplace/src/master/,No,BitBucket
+ Opções Personalizadas,"Este módulo cria conjuntos e sub-conjuntos de opções que podem ser aplicadas individualmente nos produtos, esses conjuntos são exibidos como variações na página do produto.",,https://bitbucket.org/bis2bis/-opcoes-personalizadas/src/master/,No,BitBucket
+ Correios Webservice,No manual é solicitado que o lojista obtenha o usuário e senha para a utilização do Rastreio (SOAP). Porém até o momento é possível utilizar o usuário e senha padrão do módulo,Frete,https://bitbucket.org/bis2bis/-correios-webservice/src/master/,No,BitBucket
+ Restricao de Entrega Por Produto,Este módulo permite que sejam escolhidos os métodos de entrega para cada produto através de um atributo. Para produtos com métodos diferentes serão disponibilizados apenas os métodos comuns a todos os produtos.,Frete,https://bitbucket.org/bis2bis/-restricao-de-entrega-por-produto/src/master/,No,BitBucket
+ BoletoBB,,Pagamento,https://bitbucket.org/bis2bis/-boletobb/src/master/,No,BitBucket
+ Cadastro de Lojas,Cadastra os endereços das lojas físicas e mostra sua localização no mapa (Nossas Lojas Ibyte),,https://bitbucket.org/bis2bis/-cadastro-de-lojas/src/master/,No,BitBucket
+ Pagseguro Transparente,Esse módulo foi desenvolvido com a finalidade de utilizar o método de pagamento Pagseguro.,Pagamento,https://bitbucket.org/bis2bis/-pagseguro-transparente/src/master/,No,BitBucket
+ Embalagem para Presente,,,https://bitbucket.org/bis2bis/-embalagem-para-presente/src/master/,No,BitBucket
+ Banner Mapeado,"Banner configurado para produtos configuráveis com o atributo cor, fit e tamanho",,https://bitbucket.org/bis2bis/-banner-mapeado/src/master/,No,BitBucket
+ Tray Checkout,Módulo para recebimento de pagamentos online.,Pagamento,https://bitbucket.org/bis2bis/-tray-checkout/src/master/,No,BitBucket
+ Link Categoria,"Adiciona um campo dentro da página de edição da categoria para que quando selecionada no home da loja, em vez se ser direcionado à página da categoria, seja direcionado ao link inserido.",,https://bitbucket.org/bis2bis/-link-categoria/src/master/,No,BitBucket
+ Aldo,Esse módulo consome os produtos disponíveis da Aldo Componentes Eletrônicos LTDA e os integra na loja.,,https://bitbucket.org/bis2bis/-aldo/src/master/,No,BitBucket
+ Minicart Sidebar,O objetivo do módulo é oferecer um sidebar cart retrátil que contenha todos os mecanismos presentes no carrinho.,,https://bitbucket.org/bis2bis/-minicart-sidebar/src/master/,No,BitBucket
+ Login Redes Sociais,Módulo desenvolvido com a finalidade de permitir o usuário se cadastrar usando sua conta do Facebook ou do Google.,,https://bitbucket.org/bis2bis/-login-redes-sociais/src/master/,No,BitBucket
+ Depoimentos,Módulo responsalvel por realizar o cadastro e exibição de depoimentos.,,https://bitbucket.org/bis2bis/-depoimentos/src/master/,No,BitBucket
+ Moip V2 - Wirecard,Adiciona o método de pagamento do Moip.,Pagamento,https://bitbucket.org/bis2bis/-moip-v2-wirecard/src/master/,No,BitBucket
+ Gerenciador de Scripts,"Com o módulo Gerenciador de Scripts é possível inserir diversos tipos de scripts tornando o processo mais seguro e mais rápido, de maneira com que o código fique mais organizado e limpo.",,https://bitbucket.org/bis2bis/-gerenciador-de-scripts/src/master/,No,BitBucket
+ Feed Orcamento,"O  tem as mesmas funções que o  do Google Shopping, porém só os produtos com o atributo ""Orçamento"" ativado são adicionados ao feed. O  também mostra o atributo ""Características"" no feed (caso o produto tenha esse atributo).",,https://bitbucket.org/bis2bis/-feed-orcamento/src/master/,No,BitBucket
+ Paypal Plus,Disponibiliza o Método de Pagamento do Paypal na página,Pagamento,https://bitbucket.org/bis2bis/-paypal-plus/src/master/,No,BitBucket
+ Template Personalizado,Este módulo cria templates que definem as opções personalizadas para os produtos cadastrados no sistema (personalizado para a loja Kimonos Dojo).,,https://bitbucket.org/bis2bis/-template-personalizado/src/master/,No,BitBucket
+ Trustvox,"O módulo Trustvox serve para que os usuários possam avaliar os produtos de maneira sincera, pois através de um fluxo inteligente, a Trustvox convida apenas clientes que realmente realizaram uma compra para darem sua opinião sincera sobre sua experiência.",,https://bitbucket.org/bis2bis/-trustvox/src/master/,No,BitBucket
+ Descricao por Bloco,Esse módulo foi desenvolvido com a finalidade de permitir ao lojista cadastrar blocos de imagens descritivas na descrição dos produtos.,,https://bitbucket.org/bis2bis/-descricao-por-bloco/src/master/,No,BitBucket
+ Frenet,Módulo de Gateways para Fretes,Frete,https://bitbucket.org/bis2bis/-frenet/src/master/,No,BitBucket
+ Desconto por Produto,,,https://bitbucket.org/bis2bis/-desconto-por-produto/src/master/,No,BitBucket
+ Integracao Winthor,,,https://bitbucket.org/bis2bis/-integracao-winthor/src/master/,No,BitBucket
+ Transportadora Porcentagem,,Frete,https://bitbucket.org/bis2bis/-transportadora-porcentagem/src/master/,No,BitBucket
+ Compre Junto,,,https://bitbucket.org/bis2bis/-compre-junto/src/master/,No,BitBucket
+ E-Rede v2,Método de pagamento da Rede,Pagamento,https://bitbucket.org/bis2bis/-e-rede-v2/src/master/,No,BitBucket
+ Vindi,Módulo para compras com recorrência,,https://bitbucket.org/bis2bis/-vindi/src/master/,No,BitBucket
+ Preco Simples,"Este módulo atualiza os preços na página do produto configurado de acordo com o respectivo produto simples que possui as opções escolhidas. Este comportamento é diferente do original, onde os preços são atualizados de acordo com cada atributo.",,https://bitbucket.org/bis2bis/-preco-simples/src/master/,No,BitBucket
+ Deposito Bancario,,Pagamento,https://bitbucket.org/bis2bis/-deposito-bancario/src/master/,No,BitBucket
+ RD Station,Módulo de integração entre o magento e a plataforma RD Station da Resultados Digitais para criação e qualificação de leads.,Integração,https://bitbucket.org/bis2bis/-rd-station/src/master/,No,BitBucket
+ Brinde,Este módulo permite que sejam criadas regras de promoções que ofereçam brindes ao cliente.,Product,https://bitbucket.org/bis2bis/-brinde/src/master/,No,BitBucket
+ Frete Gerenciavel,,Frete,https://bitbucket.org/bis2bis/-frete-gerenciavel/src/master/,No,BitBucket
+ Banner,Adciona gerenciamento de banner.,,https://bitbucket.org/bis2bis/-banner/src/master/,No,BitBucket
+ Orçamento Produto,,Product,https://bitbucket.org/bis2bis/-orcamento-produto/src/master/,No,BitBucket
+ Pedido Minimo por Grupo de Cliente,Este módulo permite o lojista administrador definir um valor mínimo para pedidos solicitados por clientes de um determinado grupo.,,https://bitbucket.org/bis2bis/-pedido-minimo-por-grupo-de-cliente/src/master/,No,BitBucket
+ Segundo Cupom,Adiciona a opção de um segundo cupom,,https://bitbucket.org/bis2bis/-segundo-cupom/src/master/,No,BitBucket
+ Integração Ibyte,Adiciona implementações exclusivas para o ERP da IByte,Integração,https://bitbucket.org/bis2bis/-integracao-ibyte/src/master/,No,BitBucket
+ Integracao Onclick,"Realiza a integração de Produtos, Categorias, Pedidos, Atributos, Estoques e Preços com o sistema ERP Onclick",Integração,https://bitbucket.org/bis2bis/-integracao-onclick/src/master/,No,BitBucket
+ Entrega Motoboy,,Frete,https://bitbucket.org/bis2bis/-entrega-motoboy/src/master/,No,BitBucket
+ Pagseguro,,Pagamento,https://bitbucket.org/bis2bis/-pagseguro/src/master/,No,BitBucket
+ Parceiros,,,https://bitbucket.org/bis2bis/-parceiros/src/master/,No,BitBucket
+ Intelipost,,,https://bitbucket.org/bis2bis/-intelipost/src/master/,No,BitBucket
+Atualizacao API Alternativa,Alteração na API do Magento para lojas que querem utlilizar o ERP Alternativa,,https://bitbucket.org/bis2bis/atualizacao-api-alternativa/src/master/,No,BitBucket
+ Produtos Recentes Primeiras Posições,"O módulo cria uma configuração no admin que é possível ordernar os produtos recentes nas primeiras posições da listagem de produtos. Também adiciona os produtos sem estoque nas últimas posições da listagem, independente da configuração do módulo.",Product,https://bitbucket.org/bis2bis/-produtos-recentes-primeiras-posicoes/src/master/,No,BitBucket
+ Bloqueio de Compras,,,https://bitbucket.org/bis2bis/-bloqueio-de-compras/src/master/,No,BitBucket
+ Cartao Presente,,,https://bitbucket.org/bis2bis/-cartao-presente/src/master/,No,BitBucket
+ Google Recaptcha,"Adiciona google recaptcha, dinamicamente aos formularios, impedindo a atuação de bots nos sites.",,https://bitbucket.org/bis2bis/-google-recaptcha/src/master/,No,BitBucket
+ Google Shopping,,,https://bitbucket.org/bis2bis/-google-shopping/src/master/,No,BitBucket
+ Caixa,"O módulo multiplica o valor unitário do produto pela quantidade de pares que a caixa possui. A quantidade de pares é definida na view de cada produto, através da configuração do atributos par_por_caixa.",,https://bitbucket.org/bis2bis/-caixa/src/master/,No,BitBucket
+ Frete por Produto,,Frete,https://bitbucket.org/bis2bis/-frete-por-produto/src/master/,No,BitBucket
+ Importacao Categorias,Este módulo é capaz de exportar/exportar todas as categorias e subcategorias de uma loja.,,https://bitbucket.org/bis2bis/-importacao-categorias/src/master/,No,BitBucket
+ Validar OSC,"Esse módulo foi desenvolvido com a finalidade de validar informações ao abrir o OSC: - Cadastro de cliente: CPF, CNPJ. - Cadastro de cliente: TELEFONE, CELULAR. - Validação de carrinho: Verifica se o carrinho possui um produto com valor zero. - Verifica ao deletar um item, se o mesmo está adicionado a algum carrinho, caso esteja, será removido. - Também pode ser removido todos os ""itens fantasmas"" pelo cron ""catalog_product_delete_after"".",,https://bitbucket.org/bis2bis/-validar-osc/src/master/,No,BitBucket
+ Atacado B2B,,,https://bitbucket.org/bis2bis/-atacado-b2b/src/master/,No,BitBucket
+ Upload de Arquivos,,,https://bitbucket.org/bis2bis/-upload-de-arquivos/src/master/,No,BitBucket
+ Oderco,"Permite integrar com a Distriubuidora Oderço, permitindo cadastrar produtos através de XML enviado a loja pelo lojista.",,https://bitbucket.org/bis2bis/-oderco/src/master/,No,BitBucket
+ Transportadora Nome,Módulo para Método de Entrega onde o Cliente adiciona o nome da transportadora como forma de entrega.,Frete,https://bitbucket.org/bis2bis/-transportadora-nome/src/master/,No,BitBucket
+ Comparativo,,,https://bitbucket.org/bis2bis/-comparativo/src/master/,No,BitBucket
+ Clearsale Start,O que o módulo faz de forma sintetizada,,https://bitbucket.org/bis2bis/-clearsale-start/src/master/,No,BitBucket
+ Monte seu PC,Este módulo customiza a tela de pacote de produtos com imagens dos componentes do pacote e das opções de customização.,Product,https://bitbucket.org/bis2bis/-monte-seu-pc/src/master/,No,BitBucket
+ Quick View,Esse módulo tem a intenção de abrir rápidamente os detalhes do produto nas listas.,Product,https://bitbucket.org/bis2bis/-quick-view/src/master/,No,BitBucket
+ Bloqueio Loja,Este módulo faz com que todos os usuários precissem ser autenticados antes de acessar a loja.,Customer,https://bitbucket.org/bis2bis/-bloqueio-loja/src/master/,No,BitBucket
+Documentacao Coletek,,,https://bitbucket.org/bis2bis/documentacao-coletek/src/master/,No,BitBucket
+ Integracao Sonhart,,Integração,https://bitbucket.org/bis2bis/-integracao-sonhart/src/master/,No,BitBucket
+ Entrega Agendada,Método de entrega,Frete,https://bitbucket.org/bis2bis/-entrega-agendada/src/master/,No,BitBucket
+ Cielo Dois Cartoes,,Pagamento,https://bitbucket.org/bis2bis/-cielo-dois-cartoes/src/master/,No,BitBucket
+ Oferta Relampago,Essa extensão permite o uso de um bloco no frontend mostrando as informações de uma oferta e uma contagem regressiva baseada no tempo final de alguma das promoções de catálogo cadastradas no sistema.,,https://bitbucket.org/bis2bis/-oferta-relampago/src/master/,No,BitBucket
+ Otimizador de Codigo,"Adiciona algumas funcionalidades para melhorar a perfomance de código, como compressão, minimização e outros.",,https://bitbucket.org/bis2bis/-otimizador-de-codigo/src/master/,No,BitBucket
+ Template,"Módulo utilizado para renderização do menu, e configurações a criar.",,https://bitbucket.org/bis2bis/-template/src/master/,No,BitBucket
+ Ajax Export,"Esse módulo foi desenvolvido com a finalidade de alterar as exportações de grid do magento, utilizando ajax e fazendo a exportação por paginação.",,https://bitbucket.org/bis2bis/-ajax-export/src/master/,No,BitBucket
+ Gerenciador Order,Esse módulo foi desenvolvido com a finalidade de permitir a visualização e edição de pedidos,,https://bitbucket.org/bis2bis/-gerenciador-order/src/master/,No,BitBucket
+Frontend Script Deploy,"Esse script executa rotinas básicas do setor frontend para clonar loja, configurar ela automaticamente e abrir no navegador em linux mint/ubuntu",,https://bitbucket.org/bis2bis/frontend-script-deploy/src/master/,No,BitBucket
+ Hayamax,Esse módulo consome os produtos disponíveis da Hayamax e os integra na loja.,,https://bitbucket.org/bis2bis/-hayamax/src/master/,No,BitBucket
+ Formulario Revendedor,Adiciona o formulário de Revendedor na loja.,,https://bitbucket.org/bis2bis/-formulario-revendedor/src/master/,No,BitBucket
+ Itau Shopline,Método de pagamento boleto do Itaú.,Pagamento,https://bitbucket.org/bis2bis/-itau-shopline/src/master/,No,BitBucket
+ Marcas Padrao,,,https://bitbucket.org/bis2bis/-marcas-padrao/src/master/,No,BitBucket
+ Jadlog,,Frete,https://bitbucket.org/bis2bis/-jadlog/src/master/,No,BitBucket
+ Relatorio de Vendas,"Esse módulo gera uma nova grid de relatórios reunindo em uma única grid, diversas informações sobre os itens vendidos",,https://bitbucket.org/bis2bis/-relatorio-de-vendas/src/master/,No,BitBucket
+ PayU," do método de Pagamento PayU, adaptado da comunidade. Fornece opção de pagamento com Cartão de Crédito e Boleto Bancário.",Pagamento,https://bitbucket.org/bis2bis/-payu/src/master/,No,BitBucket
+ Atributo Listagem,"Este módulo permite que o usuário escoha as opções do produto configurável na listagem de produtos, com atualização dos preços, imagens e links para adicionar ao carrinho ou acessar a página do produto com as opções selecionadas.",,https://bitbucket.org/bis2bis/-atributo-listagem/src/master/,No,BitBucket
+ Integracao Market Place,Esse  tem como objetivo centralizar as configurações e requisições de integração de vários s de marketplace.,,https://bitbucket.org/bis2bis/-integracao-market-place/src/master/,No,BitBucket
+ Exportacao,Módulo de Exportação de planilhas,,https://bitbucket.org/bis2bis/-exportacao/src/master/,No,BitBucket
+ Integracao E-millennium,,Integração,https://bitbucket.org/bis2bis/-integracao-e-millennium/src/master/,No,BitBucket
+ Bloqueio de Produtos por Grupo de Clientes,,Product,https://bitbucket.org/bis2bis/modulo-bloqueio-de-produtos-por-grupo-de-clientes/src/master/,No,BitBucket
+ PWA,,,https://bitbucket.org/bis2bis/-pwa/src/master/,No,BitBucket
+ Logger,Registrar qualquer ação que modifica o estoque dos produtos.,Product,https://bitbucket.org/bis2bis/-logger/src/master/,No,BitBucket
+ Lista de Casamento,,,https://bitbucket.org/bis2bis/-lista-de-casamento/src/master/,No,BitBucket
+ Falta Frete Gratis,Exibe o valor faltante para satisfazer a regra de frete grátis.,Frete,https://bitbucket.org/bis2bis/-falta-frete-gratis/src/master/,No,BitBucket
+ Pagina de Drivers,Este módulo permite a criação e o gerenciamento do download de drivers na loja.,,https://bitbucket.org/bis2bis/-pagina-de-drivers/src/master/,No,BitBucket
+ Download de Planilhas,Esse módulo permite que pelo sistema administrativo seja feito o download das planilhas geradas pelo Dataflow,,https://bitbucket.org/bis2bis/-download-de-planilhas/src/master/,No,BitBucket
+ Integracao Sankhya,,,https://bitbucket.org/bis2bis/-integracao-sankhya/src/master/,No,BitBucket
+ Matriz de Atributos,"Este módulo cria uma matriz que cruza todas as opções de dois atributos na página de um produto configurável, permitindo que o usuário selecione vários produtos na mesma página, além de cotar o frete destes.",,https://bitbucket.org/bis2bis/-matriz-de-atributos/src/master/,No,BitBucket
+ Cores Dois Atributos,"O módulo possibita utilizar dois atributos de cores para criar os produtos configuráveis. Por padrão, o módulo é instalado com a funcionlidade de duas cores desativada.",Product,https://bitbucket.org/bis2bis/-cores-dois-atributos/src/master/,No,BitBucket
+ Cores,,,https://bitbucket.org/bis2bis/-cores/src/master/,No,BitBucket
+ ContagemRegressiva,Essa extensão permite o uso de um bloco no frontend que realiza uma contagem regressiva baseada no tempo final de alguma das promoções de catálogo cadastradas no sistema.,,https://bitbucket.org/bis2bis/-contagemregressiva/src/master/,No,BitBucket
+ Timelog,Esse módulo foi desenvolvido com a finalidade de registrar o tempo consumido pelas funções,,https://bitbucket.org/bis2bis/-timelog/src/master/,No,BitBucket
+ Entrega Bairro,,Frete,https://bitbucket.org/bis2bis/-entrega-bairro/src/master/,No,BitBucket
+ Cielo,,Pagamento,https://bitbucket.org/bis2bis/-cielo/src/master/,No,BitBucket
+ Filtro Topo Ajax,,,https://bitbucket.org/bis2bis/-filtro-topo-ajax/src/master/,No,BitBucket
+ Braspress Webservice,,Frete,https://bitbucket.org/bis2bis/-braspress-webservice/src/master/,No,BitBucket
+ Boleto com Registro,"Adiciona o método de pagamento Boleto com registro, que permite criação e gerenciamento deste tipo de documento.",Pagamento,https://bitbucket.org/bis2bis/-boleto-com-registro/src/master/,No,BitBucket
+ Zoom Merchant,,,https://bitbucket.org/bis2bis/-zoom-merchant/src/master/,No,BitBucket
+ Orcamento Avacy,,,https://bitbucket.org/bis2bis/-orcamento-avacy/src/master/,No,BitBucket
+ Empreendedor,,,https://bitbucket.org/bis2bis/-empreendedor/src/master/,No,BitBucket
+ Orcamento Gerenciavel,,,https://bitbucket.org/bis2bis/-orcamento-gerenciavel/src/master/,No,BitBucket
+ Options Prime,,,https://bitbucket.org/bis2bis/-options-prime/src/master/,No,BitBucket
+ Boleto Parcelado,Permite que ao lojista habilitar o parcelamento de boletos para determinado cliente de determinado grupo,Pagamento,https://bitbucket.org/bis2bis/-boleto-parcelado/src/master/,No,BitBucket
+Integracao Eorganiza,Extensão para integração com o sistema ERP EOrganiza.,Integração,https://bitbucket.org/bis2bis/integracao-eorganiza/src/master/,No,BitBucket
+ Integracao World Importados,,Integração,https://bitbucket.org/bis2bis/-integracao-world-importados/src/master/,No,BitBucket
+ Hayonik,,,https://bitbucket.org/bis2bis/-hayonik/src/master/,No,BitBucket
+ Carrinhos Abandonados - Envio de Emails,"Esse módulo gera um template de email que é enviado ao cliente com a mensagem e o link para retomar o carrinho abandonado, sendo necessário a aplicação do layout desejado",,https://bitbucket.org/bis2bis/-carrinhos-abandonados-envio-de-emails/src/master/,No,BitBucket
+ Komerci Rede,,,https://bitbucket.org/bis2bis/-komerci-rede/src/master/,No,BitBucket
+ Seats,"Adiciona diversas implementação para vendas de ingressos, inclusive com a utilização da plataforma seats.io.",,https://bitbucket.org/bis2bis/-seats/src/master/,No,BitBucket
+ Filtro Topo,,,https://bitbucket.org/bis2bis/-filtro-topo/src/master/,No,BitBucket
+ Walmart Marketplace,"Este módulo foi desenvolvido para funcionar em conjunto com outro módulo, o Marketplace HUB",,https://bitbucket.org/bis2bis/-walmart-marketplace/src/master/,No,BitBucket
+ Valor Pedido Maximo,Cadastro de Valor Máximo de Compra por Cliente em um mesmo pedido.,,https://bitbucket.org/bis2bis/-valor-pedido-maximo/src/master/,No,BitBucket
+ Lista de Compras,Permite ao usuário de uma loja salvar carrinhos para comprar novamente em outro momento.,,https://bitbucket.org/bis2bis/-lista-de-compras/src/master/,No,BitBucket
+ Termo Aquisicao,Esse módulo foi desenvolvido com a finalidade de forçar o cliente a aceitar o termo de aquisição do produto antes de finalizar a compra.,,https://bitbucket.org/bis2bis/-termo-aquisicao/src/master/,No,BitBucket
+ Bloqueio de Categorias por Grupo de Clientes,Este módulo permite a loja magento limitar as categorias em que cada grupo de cliente tem acesso,,https://bitbucket.org/bis2bis/-bloqueio-de-categorias-por-grupo-de-clientes/src/master/,No,BitBucket
+ Filtro Atributo v2,,,https://bitbucket.org/bis2bis/-filtro-atributo-v2/src/master/,No,BitBucket
+ Mailchimp,,,https://bitbucket.org/bis2bis/-mailchimp/src/master/,No,BitBucket
+ Produto Categoria Destaque,Este módulo cria um atributo na categoria para que o lojista possa escolher um produto que irá aparecer no menu de categorias principais da loja,Product,https://bitbucket.org/bis2bis/-produto-categoria-destaque/src/master/,No,BitBucket
+ Blog,,,https://bitbucket.org/bis2bis/-blog/src/master/,No,BitBucket
+ Link Para Redes Sociais,,,https://bitbucket.org/bis2bis/-link-para-redes-sociais/src/master/,No,BitBucket
+ Banner Ebit,,,https://bitbucket.org/bis2bis/-banner-ebit/src/master/,No,BitBucket
+Google Tag Manager Pro (DEPRECIADO),,,https://bitbucket.org/bis2bis/google-tag-manager-pro-depreciado/src/master/,No,BitBucket
+ Filtro,,,https://bitbucket.org/bis2bis/-filtro/src/master/,No,BitBucket
+Observação Checkout,"Esse módulo foi desenvolvido com a finalidade de permitir ao cliente escrever uma observação no checkout do pedido, também será exibido a observação no PDF do pedido",,https://bitbucket.org/bis2bis/-observacao-checkout/src/master/,No,BitBucket
+ Banner Video,,,https://bitbucket.org/bis2bis/-banner-video/src/master/,No,BitBucket
+ Liberacao de Cliente,,,https://bitbucket.org/bis2bis/-liberacao-de-cliente/src/master/,No,BitBucket
+ Lista Presentes,,,https://bitbucket.org/bis2bis/-lista-presentes/src/master/,No,BitBucket
+ Evolusom,,,https://bitbucket.org/bis2bis/-evolusom/src/master/,No,BitBucket
+ Bloqueio de Preço por CEP,Esse módulo bloqueia a exibição do preço se o usuário possui um CEP que está restrito nas configurações do produto.,,https://bitbucket.org/bis2bis/-bloqueio-de-preco-por-cep/src/master/,No,BitBucket
+ Venda por Caixa,,,https://bitbucket.org/bis2bis/-venda-por-caixa/src/master/,No,BitBucket
+ Imposto Coletek,Adiciona implementações para o uso dos impostos da Coletek,,https://bitbucket.org/bis2bis/-imposto-coletek/src/master/,No,BitBucket
+ Log Order,Este módulo grava todas as mudanças de status de um pedido e salva as mudanças em uma grid.,,https://bitbucket.org/bis2bis/-log-order/src/master/,No,BitBucket
+ Criteo,,,https://bitbucket.org/bis2bis/-criteo/src/master/,No,BitBucket
+ Alteracao de Grupo de Atributos,,,https://bitbucket.org/bis2bis/-alteracao-de-grupo-de-atributos/src/master/,No,BitBucket
+ Muccashop Merchant,,,https://bitbucket.org/bis2bis/-muccashop-merchant/src/master/,No,BitBucket
+ Rates Message,Esse módulo foi desenvolvido com a finalidade de possibilitar ao lojista cadastrar notificações ao usuário de acordo com o Cep de entrega.,,https://bitbucket.org/bis2bis/-rates-message/src/master/,No,BitBucket
+Analise de Acesso (devops),Este repositório armazena scripts com finalidade de auxiliar na identificação de BadBots e Ataques DDos.,,https://bitbucket.org/bis2bis/analise-de-acesso-devops/src/master/,No,BitBucket
+Hubee Bis2Bis,,,https://bitbucket.org/bis2bis/hubee-bis2bis/src/master/,No,BitBucket
+ Login Paypal,Disponibiliza o Método de Pagamento Login Paypal.,Pagamento,https://bitbucket.org/bis2bis/-login-paypal/src/master/,No,BitBucket
+ Assinaturas,Permitir a realização de assinaturas de produtos da loja.,,https://bitbucket.org/bis2bis/-assinaturas/src/master/,No,BitBucket
+Meu Salao (antiga),,,https://bitbucket.org/bis2bis/meu-salao-antiga/src/master/,No,BitBucket
+ Logo por Categoria,Permitir a loja mostrar diferentes logos para diferentes categorias.,,https://bitbucket.org/bis2bis/-logo-por-categoria/src/master/,No,BitBucket
+ Imposto CadastroWebservice CEP,Este módulo permite que o magento identifique o grupo de clientes durante o checkout mesmo antes de salvar o cliente e desta maneira aplicar o imposto corretamente sobre o pedido.,,https://bitbucket.org/bis2bis/-imposto-cadastro/src/master/,No,BitBucket
+Webservice CEP,,,https://bitbucket.org/bis2bis/webservice-cep/src/master/,No,BitBucket
+ Importacao Imagem,Esse módulo foi desenvolvido com a finalidade de realizar a importação de imagens de lojas antigas e exportá-las para a nova loja bis2bis,,https://bitbucket.org/bis2bis/-importacao-imagem/src/master/,No,BitBucket
+ Regra de Quantidade por Item,,,https://bitbucket.org/bis2bis/-regra-de-quantidade-por-item/src/master/,No,BitBucket
+ AlternativeOrderId,,,https://bitbucket.org/bis2bis/-alternativeorderid/src/master/,No,BitBucket
+ Aoe Scheduler,Visualização e Melhorias no Gerenciamento das Tarefas do cron.,,https://bitbucket.org/bis2bis/-aoe-scheduler/src/master/,No,BitBucket
+ Log Alteracao Status,"Este módulo loga as alterações realizadas pelos usuários administrativos do e-commerce e exibe em uma Grid, em Vendas > Log de Status",,https://bitbucket.org/bis2bis/-log-alteracao-status/src/master/,No,BitBucket
+ Bloco Fit,"Cadastrar grupos de fit, tipos de Fit e fits no meno ""Fit"" do Admin",,https://bitbucket.org/bis2bis/-bloco-fit/src/master/,No,BitBucket
+FAQ,NÃO É UM MÓDULO DO MAGENTO,,https://bitbucket.org/bis2bis/faq/src/master/,No,BitBucket
+ Etiqueta Floricultura,Este módulo tem como propósito permitir ao lojista gerar etiquetas(impressão em pdf) com os dados dos pedidos feitos na loja.,,https://bitbucket.org/bis2bis/-etiqueta-floricultura/src/master/,No,BitBucket
+ Bloqueio Loja por Horario,,,https://bitbucket.org/bis2bis/-bloqueio-loja-por-horario/src/master/,No,BitBucket
+ Garantia,,,https://bitbucket.org/bis2bis/-garantia/src/master/,No,BitBucket
+ Produto M²,Este módulo tem o propósito de adicionar ao produto dois novos campos para permitir com que o cliente consumidor calcule a quantidade de produtos por m²(Metros Quadrados).,Product,https://bitbucket.org/bis2bis/-produto-m2/src/master/,No,BitBucket
+ Notificar Avise-me Quando Chegar,,,https://bitbucket.org/bis2bis/-notificar-avise-me-quando-chegar/src/master/,No,BitBucket
+ Monte seu Negocio,,,https://bitbucket.org/bis2bis/-monte-seu-negocio/src/master/,No,BitBucket
+ Loja Filha,Esse módulo foi desenvolvido com a finalidade de possibilitar o cadastro de uma categoria para exibir categorias especiais para clientes,,https://bitbucket.org/bis2bis/-loja-filha/src/master/,No,BitBucket
+ Montagem Bone,"Este módulo adiciona na loja uma funcionalidade para a montagem de bonés, através de imagens SVG de cada elemento do boné.",,https://bitbucket.org/bis2bis/-montagem-bone/src/master/,No,BitBucket
+ Frete por Peso,,Frete,https://bitbucket.org/bis2bis/-frete-por-peso/src/master/,No,BitBucket
+ Banner Produto,Esse módulo é apenas uma funcionalidade extra no módulo de banner que já existe na loja padrão. Possibilita a escolha de um produto da loja para mostrar no Banner. A imagem do banner pode ser utilizada como fundo para o produto.,,https://bitbucket.org/bis2bis/-banner-produto/src/master/,No,BitBucket
+ Link Info Produtos,,,https://bitbucket.org/bis2bis/-link-info-produtos/src/master/,No,BitBucket
+ Onibus Excursao,O módulo tem as mesmas funções do Módulo Transportadora Cliente.,,https://bitbucket.org/bis2bis/-onibus-excursao/src/master/,No,BitBucket
+ Feed Shopback,"O módulo tem as mesmas funções que o módulo do Google Shopping, porém só os produtos com o atributo ""Shopback"" habilitado são adicionados ao feed.",,https://bitbucket.org/bis2bis/-feed-shopback/src/master/,No,BitBucket
+ Editar Produtos Grid,O módulo permite editar atributos do produtos sem ser necessário acessá-lo.,,https://bitbucket.org/bis2bis/-editar-produtos-grid/src/master/,No,BitBucket
+ Rede Pay,,,https://bitbucket.org/bis2bis/-rede-pay/src/master/,No,BitBucket
+ Vasculhei,,,https://bitbucket.org/bis2bis/-vasculhei/src/master/,No,BitBucket
+ Dropshipping Server,"O módulo SERVER será responsável por gerenciar os usuários que irão consumir a API, gerenciar/disponibilizar o estoque e receber os pedidos.",,https://bitbucket.org/bis2bis/-dropshipping-server/src/master/,No,BitBucket
+ Correcao Paypal,O Módulo possui alternativas afim de prevenir e corrigir pedidos com STATUS de Suspeita de Frade.,Pagamento,https://bitbucket.org/bis2bis/-correcao-paypal/src/master/,No,BitBucket
+ Troca Fone,"Este módulo tem como propósito permitir a loja, comprar produtos usados do usuário.",,https://bitbucket.org/bis2bis/-troca-fone/src/master/,No,BitBucket
+ Relatorio Avançado de Produtos,Este módulo disponibiliza uma tela no admin com relatórios avançados dos produtos vendidos em um período pela loja,Product,https://bitbucket.org/bis2bis/-relatorio-avancado-de-produtos/src/master/,No,BitBucket
+ Carrossel por Categoria,"Com este módulo é possível criar um carrossel de produtos de uma categoria, podendo também selecionar as subcategorias, onde os produtos serão recarregados com ajax.",,https://bitbucket.org/bis2bis/-carrossel-por-categoria/src/master/,No,BitBucket
+ Produto Destaque Home,"Este módulo possibilita adicionar um bloco na página inicial para renderizar produtos aleatóriamente, conforme a configuração do atributo ""Destacar na página incial?""",Product,https://bitbucket.org/bis2bis/-produto-destaque-home/src/master/,No,BitBucket
+ Mailbiz,"MailBiz é uma ferramenta de e-mail marketing, este módulo é responsável em realizar a integração de leads (Customer e Newsletter) através de 02 observers (newsletter_subscriber_save_after, customer_save_after)",,https://bitbucket.org/bis2bis/-mailbiz/src/master/,No,BitBucket
+ Cartao Simples,,,https://bitbucket.org/bis2bis/-cartao-simples/src/master/,No,BitBucket
+ Fit Over,"Este módulo permite ao lojista utilizar dois novos atributos frame_width(largura) e frame_height(altura), que irá permitir o filtro do módulo no formulário Fit Over na home page",,https://bitbucket.org/bis2bis/-fit-over/src/master/,No,BitBucket
+ Log Envio de E-mail,Esse módulo foi desenvolvido com a finalidade de registrar a saida de e-mail do magento.,,https://bitbucket.org/bis2bis/-log-envio-de-e-mail/src/master/,No,BitBucket
+ Buscape,,,https://bitbucket.org/bis2bis/-buscape/src/master/,No,BitBucket
+ Glio,,,https://bitbucket.org/bis2bis/-glio/src/master/,No,BitBucket
+ Ja Cotei Merchant,,,https://bitbucket.org/bis2bis/-ja-cotei-merchant/src/master/,No,BitBucket
+ Vitrine por Estado,"Este módulo serve para permitir ao lojista mostrar uma categoria na home page com os produtos do estado do cliente. O módulo verifica o IP do cliente, e acessa uma base para verificar qual a sua localização.",,https://bitbucket.org/bis2bis/-vitrine-por-estado/src/master/,No,BitBucket
+ E-mail Cancelamento,,,https://bitbucket.org/bis2bis/-e-mail-cancelamento/src/master/,No,BitBucket
+ Limite de Produtos Carrinho,Limita a quantidade de produtos (SKU's) no carrinho,Product,https://bitbucket.org/bis2bis/-limite-de-produtos-carrinho/src/master/,No,BitBucket
+ Formulario Trabalhe Conosco,Adiciona o formulário Trabalhe Conosco na loja.,,https://bitbucket.org/bis2bis/-formulario-trabalhe-conosco/src/master/,No,BitBucket
+ Termino de Vendas,"Permite definir uma data para o término das vendas de determinado produto, sem o desabilitar, mas impedindo a sua adição no carrinho.",,https://bitbucket.org/bis2bis/-termino-de-vendas/src/master/,No,BitBucket
+ Relatorio Ibyte,Adiciona relatórios criados para a loja Ibyte.,,https://bitbucket.org/bis2bis/-relatorio-ibyte/src/master/,No,BitBucket
+ Pagarme Antigo,Adiciona o método de pagamento do Pagar Me.,Pagamento,https://bitbucket.org/bis2bis/-pagarme-antigo/src/master/,No,BitBucket
+ Formulario Orcamento, Adiciona o formulário de Revendedor na loja.,,https://bitbucket.org/bis2bis/-formulario-orcamento/src/master/,No,BitBucket
+ Filtro Atributo v2,Módulo de filtro de produtos através dos atributos dos mesmo.,,https://bitbucket.org/bis2bis/-filtro-atributo/src/master/,No,BitBucket
+ Mensagem Login,Esse módulo foi desenvolvido com a finalidade de exibir uma popup ao cliente realizar o login em sua conta,,https://bitbucket.org/bis2bis/-mensagem-login/src/master/,No,BitBucket
+ Permissoes,"O usuário admin pode configurar quais funcionalidades o usuário ""Lojista Admin"" pode visualizar e permitir.
+Se o ""Lojista Admin"" atribuir a permissão ""todos"" à um nível de acesso (inclusive o próprio), serão concedidas apenas as que ele pode visualizar, isto é, apenas as funcionalidades configuradas pelo real admin.
+O ""Lojista Admin"" não pode visualizar ou editar o usuário ""admin"" nem o nível de acesso ""Administrators""",,https://bitbucket.org/bis2bis/-permissoes/src/master/,No,BitBucket
+ Lojas Filiais,"O módulo permite gerenciamento de lojas filiais, possibilitando adicionar um código da loja no carrinho, e também a emissão de um relatório para determinado grupo de usuário.",,https://bitbucket.org/bis2bis/-lojas-filiais/src/master/,No,BitBucket
+ Descricao HTML,"O módulo cria dois atributos para produto e categorias, chamados descrição e comparação.
+Uma aba chamada Descrição é criada em ambas páginas de edição de categorias e produtos.
+O módulo tem como propósito permitir a inserção de um bloco html na página do produto.",,https://bitbucket.org/bis2bis/-descricao-html/src/master/,No,BitBucket
+ Planilha Netshoes,,,https://bitbucket.org/bis2bis/-planilha-netshoes/src/master/,No,BitBucket
+ Orcamento Carrinho,,,https://bitbucket.org/bis2bis/-orcamento-carrinho/src/master/,No,BitBucket
+ Avise-me Quando Chegar,"Este módulo adiciona a opção de cadastro do e-mail do cliente para alertas de estoque de um produto agrupado. Quando o produto voltar ao estoque, uma mensagem de e-mail é enviada ao cliente informando quais dos produtos foram re-estocados.",,https://bitbucket.org/bis2bis/-avise-me-quando-chegar/src/master/,No,BitBucket
+ Pos Venda,,,https://bitbucket.org/bis2bis/-pos-venda/src/master/,No,BitBucket
+ Entrega Agendada por Periodo,"Método que possibilita o agendamento da entrega, podendo selecionar datas somente em um período configurado.",Frete,https://bitbucket.org/bis2bis/-entrega-agendada-por-periodo/src/master/,No,BitBucket
+ Condicao de Pagamento Boleto,,Pagamento,https://bitbucket.org/bis2bis/-condicao-de-pagamento-boleto/src/master/,No,BitBucket
+ Alteracao de Permissao,Esse módulo permite bloquear a alteração dos produtos por alguns usuários selecionados no menu: Sistemas -> Configurações | Catálogo -> Alteração de Permissões,,https://bitbucket.org/bis2bis/-alteracao-de-permissao/src/master/,No,BitBucket
+ Timer Oferta,Esse módulo permite adicionar um timer na página do produto indo até o fim da promoções atual que terminará mais cedo do produto(preço promocional ou regra de catálogo) do produto ou de um número que pode ser setado em: Sistemas -> Configurações | Catálogo -> Timer de Ofertas,,https://bitbucket.org/bis2bis/-timer-oferta/src/master/,No,BitBucket
+ E-mail de Aniversario,,,https://bitbucket.org/bis2bis/-e-mail-de-aniversario/src/master/,No,BitBucket
+ Home Contacts,"Este repositório é composto por 2 módulos.
+Home Contacts: Responsável pra gerenciar o envio de email quando houver novos usuário cadastrados através do formulário.
+Required Login: Responsável por criar o formulário de cadastro de novos usuários. Não seŕa criado novos usuários, e sim enviado um email para o admin da loja através do módulo Home contacts.",,https://bitbucket.org/bis2bis/-home-contacts/src/master/,No,BitBucket
+ Limite de Credito,"Cria um novo atributo para o cliente chamado Limite Máximo, que está relacionado com o valor de pedidos que o cliente pode realizar.
+Abate o valor de pedidos em andamento para limitar o valor do pedido do cliente.
+Não permite que o cliente prossiga com uma compra caso seu limite esteja esgotado.",,https://bitbucket.org/bis2bis/-limite-de-credito/src/master/,No,BitBucket
+ Restricao Produtos Por Cliente,"Neste módulo são criados dois novos atributos para o cadastro de produtos na loja:
+Linha do Produto;
+Público de Venda.",Product,https://bitbucket.org/bis2bis/-restricao-produtos-por-cliente/src/master/,No,BitBucket
+ Autenticacao API,,,https://bitbucket.org/bis2bis/-autenticacao-api/src/master/,No,BitBucket
+ Tempo de Producao por Metragem,"Este módulo permite ao lojista cadastrar o tempo de produção de acordo com a quantidade de m² dos itens do carrinho.
+Será exibido o tempo de produção junto com prazo de entrega do frete.",,https://bitbucket.org/bis2bis/-tempo-de-producao-por-metragem/src/master/,No,BitBucket
+ Top Product,Exibe um carrosel de produtos com as seguintes caracteristicas: - Melhor Preço. - Mais Vendidos. - Novos Produtos.,Product,https://bitbucket.org/bis2bis/-top-product/src/master/,No,BitBucket
+ Produto Blizi,"Possibilita a compra de planos(Vindi) de refeições, desenvolvido para a loja Blizi.",,https://bitbucket.org/bis2bis/-produto-blizi/src/master/,No,BitBucket
+ Estoque Virtual,Módulo de estoque virtual para ser utilizado junto com módulos de cross-docking.,,https://bitbucket.org/bis2bis/-estoque-virtual/src/master/,No,BitBucket
+ Pre Venda,,,https://bitbucket.org/bis2bis/-pre-venda/src/master/,No,BitBucket
+ Planos Vegan Ja,"Este módulo possibilita o gerenciamento de refeições, utilizando o Pacote de Produtos, vendendo como plano ou venda simples. O módulo foi desenvolvido especificamente para a loja Vegan Já, portanto, deve ser realizada uma análise antes de instalar em outra loja.",,https://bitbucket.org/bis2bis/-planos-vegan-ja/src/master/,No,BitBucket
+ Categoria Secundaria,,,https://bitbucket.org/bis2bis/-categoria-secundaria/src/master/,No,BitBucket
+ Carrossel de Eventos,,,https://bitbucket.org/bis2bis/-carrossel-de-eventos/src/master/,No,BitBucket
+ Ajax List,"Com esse módulo é possível mostrar uma lista de categorias e uma lista de produtos a lado, que são atualizados conforme uma categoria é selecionada. Utilizado na Acácia Flor",,https://bitbucket.org/bis2bis/-ajax-list/src/master/,No,BitBucket
+ Fluxo de Status de Pedido,,,https://bitbucket.org/bis2bis/-fluxo-de-status-de-pedido/src/master/,No,BitBucket
+ Categoria Gerenciavel,,,https://bitbucket.org/bis2bis/-categoria-gerenciavel/src/master/,No,BitBucket
+ Relatorio Produtos Vendidos,"Permite gerar um relatório de produtos vendidos por pedido, colocando o range de data",,https://bitbucket.org/bis2bis/-relatorio-produtos-vendidos/src/master/,No,BitBucket
+Patch Frontend,,,https://bitbucket.org/bis2bis/patch-frontend/src/master/,No,BitBucket
+ Cadastro Vendedor,"CRUD de vendedores para uso no pedido, com acesso e alteração pela API.",,https://bitbucket.org/bis2bis/-cadastro-vendedor/src/master/,No,BitBucket
+ Pagina de Servicos,,,https://bitbucket.org/bis2bis/-pagina-de-servicos/src/master/,No,BitBucket
+ Amostra Gratis,Este módulo serve para adicionar as funcionalidades de produtos tipo amostra.,,https://bitbucket.org/bis2bis/-amostra-gratis/src/master/,No,BitBucket
+ Invoice Order Update,"O módulo foi criado para alterar o status do pedido ao imprimir a fatura.
+Configuração do módulo em : Sistema >Configuração > Vendas > Vendas > Controle de Impressão de Fatura.",,https://bitbucket.org/bis2bis/-invoice-order-update/src/master/,No,BitBucket
+ Alteracoes Fatura,,,https://bitbucket.org/bis2bis/-alteracoes-fatura/src/master/,No,BitBucket
+ Shopmania Merchant,,,https://bitbucket.org/bis2bis/-shopmania-merchant/src/master/,No,BitBucket
+ Shopbot Merchant,,,https://bitbucket.org/bis2bis/-shopbot-merchant/src/master/,No,BitBucket
+ Home2Home Merchant,,,https://bitbucket.org/bis2bis/-home2home-merchant/src/master/,No,BitBucket
+ Uol Merchant,,,https://bitbucket.org/bis2bis/-uol-merchant/src/master/,No,BitBucket
+ KuantoKusta Merchant,,,https://bitbucket.org/bis2bis/-kuantokusta-merchant/src/master/,No,BitBucket
+ Skyhub Pedidos,,,https://bitbucket.org/bis2bis/-skyhub-pedidos/src/master/,No,BitBucket
+ Relatorio Pedido Detalhado,Esse módulo gera um relátório no admin que para um determinado intervalo de tempo mostra todos os pedidos,,https://bitbucket.org/bis2bis/-relatorio-pedido-detalhado/src/master/,No,BitBucket
+ Comissao,,,https://bitbucket.org/bis2bis/-comissao/src/master/,No,BitBucket
+ Google Connect,,,https://bitbucket.org/bis2bis/-google-connect/src/master/,No,BitBucket
+ Download de Planilha Excel,"Módulo com a funcionalidade de fazer um upload no admin de um arquivo .xls ou .xlsx, para o lojista disponibilizar ao cliente.",,https://bitbucket.org/bis2bis/-download-de-planilha-excel/src/master/,No,BitBucket
+ Importacao Produtos Configurados,Este módulo permite exportar e importar os relaciomentos dos produtos configuráveis com seus respectivos produtos simples. Também permite exportar e importar os produtos relacionados (related products).,,https://bitbucket.org/bis2bis/-importacao-produtos-configurados/src/master/,No,BitBucket
+ Skyhub Cadastro de Cliente,,,https://bitbucket.org/bis2bis/-skyhub-cadastro-de-cliente/src/master/,No,BitBucket
+ Atualiza SKU,,,https://bitbucket.org/bis2bis/-atualiza-sku/src/master/,No,BitBucket
+ Motoboy Exclusivo,,,https://bitbucket.org/bis2bis/-motoboy-exclusivo/src/master/,No,BitBucket
+ Exportacao Media Gallery,Este módulo cria um arquivo CSV com todas as imagens de um produto e seu SKU afim de facilitar a exportação.,,https://bitbucket.org/bis2bis/-exportacao-media-gallery/src/master/,No,BitBucket
+ Url Personalizada Carrinho,,,https://bitbucket.org/bis2bis/-url-personalizada-carrinho/src/master/,No,BitBucket
+ Htaccess Editor,Módulo para adição de linhas extras no htaccess da loja. As linhas serão adicionadas logo após o redirect do www da loja.,,https://bitbucket.org/bis2bis/-htaccess-editor/src/master/,No,BitBucket
+ Frete por Regiao,Limita o produto a ser entregue apenas para uma região específica. ,,https://bitbucket.org/bis2bis/-frete-por-regiao/src/master/,No,BitBucket
+ Bcash na Pagina,,,https://bitbucket.org/bis2bis/-bcash-na-pagina/src/master/,No,BitBucket
+ Fidelidade,,,https://bitbucket.org/bis2bis/-fidelidade/src/master/,No,BitBucket
+ Upload de Arquivo de Verificacao,Arquivos para validar domínio. Os arquivos são restritos para o tipo .TXT ou .HTML e com no máximo 1KB.,,https://bitbucket.org/bis2bis/-upload-de-arquivo-de-verificacao/src/master/,No,BitBucket
+ Produtos Recomendados Aleatorios,,,https://bitbucket.org/bis2bis/-produtos-recomendados-aleatorios/src/master/,No,BitBucket
+ Pagamento Motoboy,,Pagamento,https://bitbucket.org/bis2bis/-pagamento-motoboy/src/master/,No,BitBucket
+ Cielo Desconto,Esse módulo permite que o lojista cadastre regras de carrinho que forneçam desconto para clientes que comprem parcelado com o cartão Cielo. É necessário que o módulo da Cielo já esteja instalado na loja.,Pagamento,https://bitbucket.org/bis2bis/-cielo-desconto/src/master/,No,BitBucket
+ Cursos,,,https://bitbucket.org/bis2bis/-cursos/src/master/,No,BitBucket
+ Parcelamento por Produto Cielo,Compatível apenas com o Módulo Cielo 1 Cartão!,Pagamento,https://bitbucket.org/bis2bis/-parcelamento-por-produto-cielo/src/master/,No,BitBucket
+ Bcash,,,https://bitbucket.org/bis2bis/-bcash/src/master/,No,BitBucket
+ Adicionar Varios Produtos do Produto Configurado,,Product,https://bitbucket.org/bis2bis/-adicionar-varios-produtos-do-produto-configurado/src/master/,No,BitBucket
+ API Tramontina,,,https://bitbucket.org/bis2bis/-api-tramontina/src/master/,No,BitBucket
+ E-Rede,,,https://bitbucket.org/bis2bis/-e-rede/src/master/,No,BitBucket
+ Assinaturas Cielo,Módulo de clube de assinaturas com suporte de pagamento da Cielo.,Pagamento,https://bitbucket.org/bis2bis/-assinaturas-cielo/src/master/,No,BitBucket
+ Newsletter Premiada,Permite que o admin realize sorteio de produtos para os assinantes da newsletter (somente os ativos).,,https://bitbucket.org/bis2bis/-newsletter-premiada/src/master/,No,BitBucket
+ All Pago,,,https://bitbucket.org/bis2bis/-all-pago/src/master/,No,BitBucket
+ Importacao de Faixas de Preco,,,https://bitbucket.org/bis2bis/-importacao-de-faixas-de-preco/src/master/,No,BitBucket
+Módulo Varnish,,,https://bitbucket.org/bis2bis/m-dulo-varnish/src/master/,No,BitBucket
+ Formulario Licitacao,Adiciona o formulário de solicitação de atas de registro de preços na loja.,,https://bitbucket.org/bis2bis/-formulario-licitacao/src/master/,No,BitBucket
+ Formulario Representante,Adiciona o formulário de representante na loja.,,https://bitbucket.org/bis2bis/-formulario-representante/src/master/,No,BitBucket
+ Compre X Habilite Y,,,https://bitbucket.org/bis2bis/-compre-x-habilite-y/src/master/,No,BitBucket
+ All Nation,,,https://bitbucket.org/bis2bis/-all-nation/src/master/,No,BitBucket
+ Transportadora Regiao,,,https://bitbucket.org/bis2bis/-transportadora-regiao/src/master/,No,BitBucket
+ Correcao Promocao Produto Configurado,"Corrige a incorreta substituição do preço dos produtos simples de um configurável (opções) para o cadastrado na promoção, sendo que só deveria alterar o preço do configurável. Obs.: Acontece apenas na exibição dos preços.",Product,https://bitbucket.org/bis2bis/-correcao-promocao-produto-configurado/src/master/,No,BitBucket
+ Dropshipping Client,,,https://bitbucket.org/bis2bis/-dropshipping-client/src/master/,No,BitBucket
+ Bradesco Scopus,,Pagamento,https://bitbucket.org/bis2bis/-bradesco-scopus/src/master/,No,BitBucket
+ Monte sua Cesta,,,https://bitbucket.org/bis2bis/-monte-sua-cesta/src/master/,No,BitBucket
+ Carrossel Autores,"Este módulo cria um carrossel contendo as informações cadastradas pelo menu Autores no painel administrativo da loja. O carrosel somente exibe os autores que possuem uma imagem cadastrada e que estão definidos como ativo. Uma vez cadastrados, um atributo pode ser escolhido para ser utilizado como filtro da navegação em camadas no momento em que um autor é clicado no carrosel.",,https://bitbucket.org/bis2bis/-carrossel-autores/src/master/,No,BitBucket
+ Correio Tabela,Utiliza valores tabelados para a cotação de frete dos produtos,Frete,https://bitbucket.org/bis2bis/-correio-tabela/src/master/,No,BitBucket
+ Logar como Cliente,,,https://bitbucket.org/bis2bis/-logar-como-cliente/src/master/,No,BitBucket
+ Formulario Informar Pagamento,"O módulo adiciona uma formulário na URL /informar-pagamento da loja, para que o cliente consiga enviar o comprovante de pagamento, informando o Nome, Número do Pedido, Banco e o comprovante. Esses dados são enviados por email ao logista.",Pagamento,https://bitbucket.org/bis2bis/-formulario-informar-pagamento/src/master/,No,BitBucket
+ Fedex,,Frete,https://bitbucket.org/bis2bis/-fedex/src/master/,No,BitBucket
+ AMartinez Importar Clientes,,,https://bitbucket.org/bis2bis/-amartinez-importar-clientes/src/master/,No,BitBucket
+ Dafiti Marketplace,"Este módulo de integração requer o módulo MarketPlace Hub para funcionar.
+A versão atual é considerada alpha, ou seja, está em fase de testes e pode se comportar de maneira inesperada, não instale em nenhuma loja em funcionamento.",,https://bitbucket.org/bis2bis/-dafiti-marketplace/src/master/,No,BitBucket
+ Designers,"Este módulo cria um bloco com um carrosel contendo informações sobre um determinado elemento cadastrado pelo painel administrativo. O elemento poderá conter uma imagem, um texto descritivo e um vídeo associados à ele.",,https://bitbucket.org/bis2bis/-designers/src/master/,No,BitBucket
+ Alterdata,,,https://bitbucket.org/bis2bis/-alterdata/src/master/,No,BitBucket
+ Frete Especifico por Atributo,"Este módulo tem como objetivo identificar produtos que possam ser enviado por um metódo específico e exibir a forma de envio para o cliente. Se possuir mais de um produto no carrinho e o atributo configurado no módulo de um dos produtos estiver inativo, o metódo de envio não será exibido.",Frete,https://bitbucket.org/bis2bis/-frete-especifico-por-atributo/src/master/,No,BitBucket
+ Atualiza Valores,Este módulo permite o ajuste em de preços de 1 ou mais produtos utilizando uma porcentagem especificada pelo lojista.,,https://bitbucket.org/bis2bis/-atualiza-valores/src/master/,No,BitBucket
+ Relatorio Plano,Gerar relatório com filtros personalizados para pedidos com produtos do tipo plano.,,https://bitbucket.org/bis2bis/-relatorio-plano/src/master/,No,BitBucket
+ Historico Pedido do Produto,,,https://bitbucket.org/bis2bis/-historico-pedido-do-produto/src/master/,No,BitBucket
+ Bndes Deposito,Permite o pagamento via BNDES Depósito para empresas.,Pagamento,https://bitbucket.org/bis2bis/-bndes-deposito/src/master/,No,BitBucket
+ Historico de Precos,Este módulo exibe um gráfico na página do produto indicando a variação do preço durante os últimos 6 ou 12 meses. De acordo com a lei 18.805 todos os produtos com 20% ou mais de desconto devem conter este gráfico como uma forma de reduzir as tentativas de fraude.,,https://bitbucket.org/bis2bis/-historico-de-precos/src/master/,No,BitBucket
+ Boleto Ultimate,,Pagamento,https://bitbucket.org/bis2bis/-boleto-ultimate/src/master/,No,BitBucket
+ Kit Box Club,"Esse módulo altera a view de alguns produtos tranformando-os em um clube de assinatura, onde a pessoa responde algumas perguntas sobre seu perfil. Esse detalhes ficam salvos no pedido são enviados no email para o cliente",,https://bitbucket.org/bis2bis/-kit-box-club/src/master/,No,BitBucket
+ Etiqueta de Envio,,,https://bitbucket.org/bis2bis/-etiqueta-de-envio/src/master/,No,BitBucket
+ Carrossel Quem Viu Tambem Viu,É oferecido ao cliente os produtos vistos por pessoas que também viram o atual produto.,,https://bitbucket.org/bis2bis/-carrossel-quem-viu-tambem-viu/src/master/,No,BitBucket
+ Omneek Embedded,,,https://bitbucket.org/bis2bis/-omneek-embedded/src/master/,No,BitBucket
+ Atualizacao Estoque Preco,Este módulo permite que através de um CSV seja possível atualizar o Estoque e o Preço dos produtos.,,https://bitbucket.org/bis2bis/-atualizacao-estoque-preco/src/master/,No,BitBucket
+ Contato Gerenciavel,"Gerenciar Departamentos, podendo dessa forma, enviar email para uma caixa de entrada específica dependendo da escolha do usuário.",,https://bitbucket.org/bis2bis/-contato-gerenciavel/src/master/,No,BitBucket
+ Importar Multiplas Imagens,Este módulo permite que através da Importação de CSV sejam importados várias imagens por produto.,,https://bitbucket.org/bis2bis/-importar-multiplas-imagens/src/master/,No,BitBucket
+ XML por Categoria,,,https://bitbucket.org/bis2bis/-xml-por-categoria/src/master/,No,BitBucket
+ Sensual Display,,,https://bitbucket.org/bis2bis/-sensual-display/src/master/,No,BitBucket
+ List por Categoria,Permite selecionar um layout de listagem de produtos diferente para cada categoria.,,https://bitbucket.org/bis2bis/-list-por-categoria/src/master/,No,BitBucket
+ Minha Vitrine,"Busca 20 produtos mais vendidos e 20 mais novos de uma categoria.
+Retorna uma collection aleatória de N produto deste conjunto (setado no ADMIN).",,https://bitbucket.org/bis2bis/-minha-vitrine/src/master/,No,BitBucket
+ Mais Vendidos,"Exibe um carrosel de produtos mais vendidos em um intervalo de tempo.
+O número de produtos e intervalo são dinâmicos.",,https://bitbucket.org/bis2bis/-mais-vendidos/src/master/,No,BitBucket
+ Relacionar em Massa,Permite que na Grid de Produtos o lojista possa relacionar produtos em massa,,https://bitbucket.org/bis2bis/-relacionar-em-massa/src/master/,No,BitBucket
+ Product List Block Cache,"Este módulo tem como objetivo adicionar informações na chave de cache de listas de produto, para que seja possível cachear listas de produto no magento. Isto deve melhorar a performance em diversas operações da loja, principalmente nas páginas de categoria.",,https://bitbucket.org/bis2bis/-product-list-block-cache/src/master/,No,BitBucket
+ Osc,,,https://bitbucket.org/bis2bis/-osc/src/master/,No,BitBucket
+ Formulario Personalizado,Permite que o cliente consiga construir um formulário de contato dinamicamente.,,https://bitbucket.org/bis2bis/-formulario-personalizado/src/master/,No,BitBucket
+ Mundipagg,Adiciona o método de pagamento da Mundipagg.,Pagamento,https://bitbucket.org/bis2bis/-mundipagg/src/master/,No,BitBucket
+ Nos Ligamos,"Esse módulo cria um botão que ao ser clicado abre um formulário para que o cliente solicite uma ligação. Ao preencher o formulário e enviar, o sistema envia um email para o logista, de acordo com o email cadastrado nas configurações de contato.",,https://bitbucket.org/bis2bis/-nos-ligamos/src/master/,No,BitBucket
+ Orcamento Bordado,Cria um bloco com formulário para orçamento de bordado e envia por email.,,https://bitbucket.org/bis2bis/-orcamento-bordado/src/master/,No,BitBucket
+ Voce Quis Dizer,,,https://bitbucket.org/bis2bis/-voce-quis-dizer/src/master/,No,BitBucket
+ Integracao VPSA,,,https://bitbucket.org/bis2bis/-integracao-vpsa/src/master/,No,BitBucket
+ Fornecedor,"Vincula clientes cadastrados como fornecedores a produtos da loja. Pedidos com esse produtos são então relacionados no painel do cliente fornecedor, para que possa acompanhar o progresso do pedido no sistema.",,https://bitbucket.org/bis2bis/-fornecedor/src/master/,No,BitBucket
+ Entrega Personalizada,"Permite definir um valor de entrega personalizado para cada pedido realizado pelo backend, e apenas pelo backend.",Frete,https://bitbucket.org/bis2bis/-entrega-personalizada/src/master/,No,BitBucket
+ Impressao de Pedido,,,https://bitbucket.org/bis2bis/-impressao-de-pedido/src/master/,No,BitBucket
+ Entrega Recorrente,,,https://bitbucket.org/bis2bis/-entrega-recorrente/src/master/,No,BitBucket
+ Copy and Restore Product,,,https://bitbucket.org/bis2bis/-copy-and-restore-product/src/master/,No,BitBucket
+ Twenga Feed,Módulo responsável por gerar o XML para o Feed de Produtos do Twenga Solutions,,https://bitbucket.org/bis2bis/-twenga-feed/src/master/,No,BitBucket
+ Calculo BTU,"Exibe uma calculadora de BTU, que baseada em alguns parâmetros passado pelo usuário disponibiliza 3 links de categorias com a capacidade calculada como filtro.",,https://bitbucket.org/bis2bis/-calculo-btu/src/master/,No,BitBucket
+ Starter,,,https://bitbucket.org/bis2bis/-starter/src/master/,No,BitBucket
+ Orcamento Pedido,"Disponibiliza ao cliente da loja a opção de solicitar um orçamento quando o produto que ele deseja está fora de estoque, inclusive com possibilidade de envio de arquivo. Ao lojista fica a opção de visualizar o pedido/orçamento e enviar ao setor competente previamente cadastrado. Possui também controle de status.",,https://bitbucket.org/bis2bis/-orcamento-pedido/src/master/,No,BitBucket
+ Parcelas,"Módulo de parcelamento e atualização de preços, assim como as imagens das cores.",,https://bitbucket.org/bis2bis/-parcelas/src/master/,No,BitBucket
+ Alerta de Estoque,,,https://bitbucket.org/bis2bis/-alerta-de-estoque/src/master/,No,BitBucket
+ Etiqueta Correio,,Frete,https://bitbucket.org/bis2bis/-etiqueta-correio/src/master/,No,BitBucket
+ Categoria Infinita,,,https://bitbucket.org/bis2bis/-categoria-infinita/src/master/,No,BitBucket
+ Precifica,,,https://bitbucket.org/bis2bis/-precifica/src/master/,No,BitBucket
+ Exportar Pedido,,,https://bitbucket.org/bis2bis/-exportar-pedido/src/master/,No,BitBucket
+ Desconto por Email,"O módulo cria três atributos necessários para o seu funcionamento: o código de validação de desconto (cod_email), a data de validade do desconto (validade_desconto) e o valor, em %, do desconto que será aplicado ao produto (desconto_email). Todos eles estarão disponíveis em uma aba chamada “Desconto por email” na página de edição/criação do produto.",,https://bitbucket.org/bis2bis/-desconto-por-email/src/master/,No,BitBucket
+Privilegeinvest,,,https://bitbucket.org/bis2bis/privilegeinvest/src/master/,No,BitBucket
+ Importacao CSV,Módulo de estoque para impotação de um CSV.,,https://bitbucket.org/bis2bis/-importacao-csv/src/master/,No,BitBucket
+ Transfer,,,https://bitbucket.org/bis2bis/-transfer/src/master/,No,BitBucket
+ Barra Cep Superior,,,https://bitbucket.org/bis2bis/-barra-cep-superior/src/master/,No,BitBucket
+ Negocia Preco,Permite que o cliente consiga negociar os preços dos produtos.,Product,https://bitbucket.org/bis2bis/-negocia-preco/src/master/,No,BitBucket
+ Resale,,,https://bitbucket.org/bis2bis/-resale/src/master/,No,BitBucket
+ Resale Retail,,,https://bitbucket.org/bis2bis/-resale-retail/src/master/,No,BitBucket
+ Consultor,,,https://bitbucket.org/bis2bis/-consultor/src/master/,No,BitBucket
+ Liberacao de Cadastro,,,https://bitbucket.org/bis2bis/-liberacao-de-cadastro/src/master/,No,BitBucket
+geradorSenhasRundeck,,,https://bitbucket.org/bis2bis/geradorsenhasrundeck/src/master/,No,BitBucket
+ Filtro por Marca,Habilita um filtro por marca quando clicar em alguma categoria que esteja ativa. Há necessidade do módulo de Marcas estar instalado.,,https://bitbucket.org/bis2bis/-filtro-por-marca/src/master/,No,BitBucket
+ Atributos Extras,,,https://bitbucket.org/bis2bis/-atributos-extras/src/master/,No,BitBucket
+ Carrossel Ultimos Buscados e Departamentos,Com este módulo é possível criar um bloco com últimos produtos vistos no carrossel e exibição dos últimos produtos buscados e últimas categorias visitadas,,https://bitbucket.org/bis2bis/-carrossel-ultimos-buscados-e-departamentos/src/master/,No,BitBucket
+ Importador Universal,,,https://bitbucket.org/bis2bis/-importador-universal/src/master/,No,BitBucket
+ Carrossel Categorias Visitadas,É oferecido ao cliente os produtos mais vendidos dentre as categorias visitadas por ele.,,https://bitbucket.org/bis2bis/-carrossel-categorias-visitadas/src/master/,No,BitBucket
+ Carrossel Para Voce,Com este módulo é possível criar um carrossel de produtos de uma categoria.,,https://bitbucket.org/bis2bis/-carrossel-para-voce/src/master/,No,BitBucket
+ Video Ajax,Este módulo tem a função buscar os produtos com o atributo de video_home ao clicar no video na home.,,https://bitbucket.org/bis2bis/-video-ajax/src/master/,No,BitBucket
+Monte seu Kit,"Este módulo permite que o usuário monte um kit completo em apenas uma página, adicionando no carrinho o kit pronto para a compra.",,https://bitbucket.org/bis2bis/monte-seu-kit/src/master/,No,BitBucket
+atualizador,"Script criado às pressas para resolver um problema de segurança com upload de imagens. Pode ser melhorado e generalizado para outros propósitos.
+Utiliza pastebins externos para evitar ter que digitar senhas de ssh diversas vezes.",,https://bitbucket.org/bis2bis/atualizador/src/master/,No,BitBucket
+ Bloqueio de Preco por Grupo de Cliente,,,https://bitbucket.org/bis2bis/-bloqueio-de-preco-por-grupo-de-cliente/src/master/,No,BitBucket
+ Enterprising,,,https://bitbucket.org/bis2bis/-enterprising/src/master/,No,BitBucket
+ Resale Fidelity,,,https://bitbucket.org/bis2bis/-resale-fidelity/src/master/,No,BitBucket
+ List Option,,,https://bitbucket.org/bis2bis/-list-option/src/master/,No,BitBucket
+ Product Audio,,,https://bitbucket.org/bis2bis/-product-audio/src/master/,No,BitBucket
+ Personalize,,,https://bitbucket.org/bis2bis/-personalize/src/master/,No,BitBucket
+ Jssor,,,https://bitbucket.org/bis2bis/-jssor/src/master/,No,BitBucket
+ Categoria Pai Url,,,https://bitbucket.org/bis2bis/-categoria-pai-url/src/master/,No,BitBucket
+Troca de Fundo da Categoria,"Esse módulo permite que no cadastro de categoria seja selecionada uma imagem para ser utilizada como background da categoria. Se uma categoria não possuir imagem para o background, está receberá a imagem da categoria acima.",,https://bitbucket.org/bis2bis/troca-de-fundo-da-categoria/src/master/,No,BitBucket
+ Toolbar Sort,,,https://bitbucket.org/bis2bis/-toolbar-sort/src/master/,No,BitBucket
+Cielo Out Box,,Pagamento,https://bitbucket.org/bis2bis/cielo-out-box/src/master/,No,BitBucket
+ Anuncio,,,https://bitbucket.org/bis2bis/-anuncio/src/master/,No,BitBucket
+ Atributo Carousel,Um atributo select é utilizado para montar o carousel na home.,,https://bitbucket.org/bis2bis/-atributo-carousel/src/master/,No,BitBucket
+ Bestseller por Categoria,,,https://bitbucket.org/bis2bis/-bestseller-por-categoria/src/master/,No,BitBucket
+ Boleto Bancario,,Pagamento,https://bitbucket.org/bis2bis/-boleto-bancario/src/master/,No,BitBucket
+ Boleto Bancario Pdf,,Pagamento,https://bitbucket.org/bis2bis/-boleto-bancario-pdf/src/master/,No,BitBucket
+ Braspag,,Pagamento,https://bitbucket.org/bis2bis/-braspag/src/master/,No,BitBucket
+ Btg360,,,https://bitbucket.org/bis2bis/-btg360/src/master/,No,BitBucket
+ Bundle Checkbox Qty,,,https://bitbucket.org/bis2bis/-bundle-checkbox-qty/src/master/,No,BitBucket
+ Cadastro de Kits,,,https://bitbucket.org/bis2bis/-cadastro-de-kits/src/master/,No,BitBucket
+ Credito,"O módulo não necessita ativação pelo painel do admin, assim que instalado já está funcionando.
+O módulo cria um atributo para salvar um valor de credito de compra para um consumidor final.",Pagamento,https://bitbucket.org/bis2bis/-credito/src/master/,No,BitBucket
+ Descancelar Pedido,"Na view do pedido, é adicionado um botão que 'descancela' o pedido. Transformado o pedido em Pendente novamente.",,https://bitbucket.org/bis2bis/-descancelar-pedido/src/master/,No,BitBucket
+ Destaque por Categoria,,,https://bitbucket.org/bis2bis/-destaque-por-categoria/src/master/,No,BitBucket
+ Ebanx,,,https://bitbucket.org/bis2bis/-ebanx/src/master/,No,BitBucket
+ Filtro com Opcoes Select,"Ver o arquivos ""Manual de Utilização.docx"" junto com o módulo.",,https://bitbucket.org/bis2bis/-filtro-com-opcoes-select/src/master/,No,BitBucket
+ Frete Gratis por Valor Fixo,,Frete,https://bitbucket.org/bis2bis/-frete-gratis-por-valor-fixo/src/master/,No,BitBucket
+ Frete por Categoria,"O módulo cria um atributo para todas as categorias com o nome de “Frete da Categoria”. O campo neste atributo aceita valores de preço igual ao preço em um produto (Ex: 9.50; 9; 10;), o valor “0” também é aceito, como valor de frete grátis.
+O módulo só é válido quando TODOS os produtos do carrinho possuem pelo menos uma categoria vinculada a cada um deles, que possua um valor válido do atributo “Frete da Categoria”. Se não houver, o módulo é invalidado e não aparecerá para ser selecionado.",Frete,https://bitbucket.org/bis2bis/-frete-por-categoria/src/master/,No,BitBucket
+ gmerchant13,,,https://bitbucket.org/bis2bis/-gmerchant13/src/master/,No,BitBucket
+ Integrador Abacos,,,https://bitbucket.org/bis2bis/-integrador-abacos/src/master/,No,BitBucket
+ Limitar Acesso Admin,,,https://bitbucket.org/bis2bis/-limitar-acesso-admin/src/master/,No,BitBucket
+ Notafiscal Informativo,"Quando criado um pedido, na página de visualização do mesmo foi adicionado uma nova aba lateral “Nota Fiscal”.
+Nela é possível adicionar um número de uma nota fiscal e adicionar comentários ao mesmo.",,https://bitbucket.org/bis2bis/-notafiscal-informativo/src/master/,No,BitBucket
+ Novapontocom,Módulo de clube de assinaturas com suporte de pagamento da Cielo.,,https://bitbucket.org/bis2bis/-novapontocom/src/master/,No,BitBucket
+ Orcamento Admin,"Está disponível no painel do admin, na aba: “Orçamento->Gerenciar Orçamentos”, uma lista com os orçamentos.
+Forma de criação de orçamento semelhante a forma de criação de pedidos.",,https://bitbucket.org/bis2bis/-orcamento-admin/src/master/,No,BitBucket
+ Payfilter,,Pagamento,https://bitbucket.org/bis2bis/-payfilter/src/master/,No,BitBucket
+ Pontos,,,https://bitbucket.org/bis2bis/-pontos/src/master/,No,BitBucket
+ Procedencia Produtos,"No painel do administrador, cadastrar as procedências e a disponibilidade delas, em ""Procedência->Configurar"".
+Quando cadastrar/editar um produto, selecionar a procedência do mesmo.",,https://bitbucket.org/bis2bis/-procedencia-produtos/src/master/,No,BitBucket
+ Relatorio de Atributo,"Será listado os produtos vendidos no período selecionado, com suas respectivas quantidades vendidas, será filtrado e visualizado apenas os que possuem a opção do atributo selecionado e sua quantidade atual no estoque.",,https://bitbucket.org/bis2bis/-relatorio-de-atributo/src/master/,No,BitBucket
+ Relatorio Media de Vendas,"Selecionar o período desejado ao relatório e, se desejado, selecionar outras opções",,https://bitbucket.org/bis2bis/-relatorio-media-de-vendas/src/master/,No,BitBucket
+ Reputacao Cliente,"Está disponível nas páginas de visualização de pedido e visualização de cliente.
+No botão Avaliar Cliente ou clicando no ícone da reputação do cliente, para editar",Customer,https://bitbucket.org/bis2bis/-reputacao-cliente/src/master/,No,BitBucket
+ Selos,,,https://bitbucket.org/bis2bis/-selos/src/master/,No,BitBucket
+ Teto Frete,"No momento este módulo somente é um crud de Valor total de uma compra, e seu respectivo desconto no frete.",Frete,https://bitbucket.org/bis2bis/-teto-frete/src/master/,No,BitBucket
+ Trocas,"É mostrado os produtos existentes no pedido e logo abaixo de cada a opção de digitar a sku do produto novo que foi trocado, apenas para ficar notificado que um produto do pedido foi trocado por outro.
+É possível digitar o código de rastreio para envio e o de retorno de cada produto trocado.",,https://bitbucket.org/bis2bis/-trocas/src/master/,No,BitBucket
+ Usuarios,"Você pode bloquear determinados conteúdos para usuários que não possuem cadastro na loja por categoria e grupos de clientes, sendo assim, existe a possibilidade de liberar o conteúdo por categoria para todos usuários ou somente para usuários cadastrados e que estejam em determinados grupos de cliente.",Customer,https://bitbucket.org/bis2bis/-usuarios/src/master/,No,BitBucket
+ VisaoRapida,,,https://bitbucket.org/bis2bis/-visaorapida/src/master/,No,BitBucket
+ Zura,,,https://bitbucket.org/bis2bis/-zura/src/master/,No,BitBucket
+ Aviso de Atualizacao de Rastreamento,"O módulo funciona com o sistema de tracking do Pedro Teixeira, caso seja utilizado o módulo Correios",Frete,https://bitbucket.org/bis2bis/-aviso-de-atualizacao-de-rastreamento/src/master/,No,BitBucket
+ Agrupado,,,https://bitbucket.org/bis2bis/-agrupado/src/master/,No,BitBucket
+Recuperacao de Usuarios Newsletter,"Gerar um sql com os dados antigos de newsletter usando um backup da loja, e subir o mesmo no servidor em produção.",,,No,

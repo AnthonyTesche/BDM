@@ -1,0 +1,15 @@
+{
+    "name": "ascarikz1/htdocs",
+    "description": "BDM",
+    "authors": [
+        {
+            "name": "Anthony Galdino",
+            "email": "anthony.galdino@bistwobis.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+           "BDM\\" : "app/"
+        }
+    }
+}
