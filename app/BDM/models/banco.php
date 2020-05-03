@@ -89,6 +89,7 @@ class Banco{
             if(mysqli_affected_rows($this->link)){
               $link = "https://test-scrap-py.herokuapp.com/app/BDM/view/recuperar.php?utilizador=$user&confirmacao=$chave";
               try{
+                  mail($user, 'Recuperação de senha', 'Olá '.$user.', entre neste link '.$link);
                   if( mail($user, 'Recuperação de senha', 'Olá '.$user.', entre neste link '.$link) ){
                     echo '<p>Foi enviado um e-mail para o seu endereço, onde poderá encontrar um link único para alterar sua senha</p>';
           
