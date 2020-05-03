@@ -1,14 +1,3 @@
-<?php
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$server = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$db = substr($url["path"], 1);
-echo "Server:".$server;
-echo "Username:".$username;
-echo "Pass:".$password;
-echo "Db:".$db;
-?>
 <!DOCTYPE html>
 <html lang="en"> <!-- Form do Bootstrap com algumas alteracoes -->
   <head>
