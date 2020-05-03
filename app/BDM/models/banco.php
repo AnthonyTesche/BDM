@@ -2,17 +2,17 @@
 namespace BDM\Models;
 require_once '../../../vendor/autoload.php';
 
-define('ip', '127.0.0.1');
-define('dbName', 'bisModules');
-define('dbUser', 'root');
-define('dbPass', 'magento');
-
 class Banco{
     private $link;
 
     public function __construct(){
-        if($this->link = mysqli_connect(ip, dbUser, dbPass)) {
-            $result = mysqli_query($this->link, "USE ".dbName.";");
+        $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+        $server = $url["host"];
+        $username = $url["user"];
+        $password = $url["pass"];
+        $db = substr($url["path"], 1);
+        if($this->link = mysqli_connect($server, $username, $password)) {
+            $result = mysqli_query($this->link, "USE ".$db.";");
             return true;
         } else {
             print "Erro ao se conectar com Banco";
@@ -87,7 +87,7 @@ class Banco{
             $conf = mysqli_query($this->link, "INSERT INTO resgate VALUES ('$user', '$chave')");
        
             if(mysqli_affected_rows($this->link)){
-              $link = "http://bdm.loc/app/BDM/view/recuperar.php?utilizador=$user&confirmacao=$chave";
+              $link = "https://test-scrap-py.herokuapp.com/app/BDM/view/recuperar.php?utilizador=$user&confirmacao=$chave";
       
               if( mail($user, 'Recuperação de senha', 'Olá '.$user.', entre neste link '.$link) ){
                 echo '<p>Foi enviado um e-mail para o seu endereço, onde poderá encontrar um link único para alterar sua senha</p>';
