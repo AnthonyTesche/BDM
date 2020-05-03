@@ -88,13 +88,16 @@ class Banco{
        
             if(mysqli_affected_rows($this->link)){
               $link = "https://test-scrap-py.herokuapp.com/app/BDM/view/recuperar.php?utilizador=$user&confirmacao=$chave";
-      
-              if( mail($user, 'Recuperação de senha', 'Olá '.$user.', entre neste link '.$link) ){
-                echo '<p>Foi enviado um e-mail para o seu endereço, onde poderá encontrar um link único para alterar sua senha</p>';
-      
-              } else {
-                echo '<p>Erro ao encaminhar email </p>';
-      
+              try{
+                  if( mail($user, 'Recuperação de senha', 'Olá '.$user.', entre neste link '.$link) ){
+                    echo '<p>Foi enviado um e-mail para o seu endereço, onde poderá encontrar um link único para alterar sua senha</p>';
+          
+                  } else {
+                    echo '<p>Erro ao encaminhar email </p>';
+          
+                  }
+              } catch (Exception $e){
+                echo $e;
               }
             } else {
               echo '<p>Não foi possível gerar o endereço único</p>';
