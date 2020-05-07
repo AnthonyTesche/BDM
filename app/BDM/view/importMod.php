@@ -18,7 +18,7 @@ if (isset($_SESSION['user']) and isset($_SESSION['senha'])){
   </head>
   <body>
     <div class="container d-flex justify-content-center mt-5" id="logo">
-      <img src="../assets/img/bis2bis-floating.png" height="30%" width="30%">
+      <img src="../assets/img/LogoAnthonyTesche.png" height="30%" width="30%">
     </div>
     <div class="container d-flex justify-content-center">
       <form action="../control/controleCadMod.php" method="POST" enctype="multipart/form-data">

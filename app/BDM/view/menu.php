@@ -29,7 +29,7 @@ if (isset($_SESSION['user']) and isset($_SESSION['senha'])){
         <button type="submit" name="sair" class="btn btn-primary">Sair</button>
     </form>
     <div class="container d-flex justify-content-center mt-5" id="logo">
-      <img src="../assets/img/bis2bis-floating.png" height="10%" width="10%">
+      <img src="../assets/img/LogoAnthonyTesche.png" height="10%" width="10%">
     </div>
     <div class="container d-flex justify-content-center mt-5">
         <form method="POST" action="../view/menu.php" class="">
